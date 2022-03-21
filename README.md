@@ -13,6 +13,8 @@ Es wurden die Beiträge aus insgesamt 6 Reiseblogs aufgenommen. Zur Erleichterun
 - [„Planetenreiter“](https://planetenreiter.de/): Dirk Loew
 - [„Reisegeheimnisse“](https://urlaubs-welt.de/): Christine Fröhling
 
+Für Meso-Berlin konnten aus rechtlichen Gründen nicht alle Beiträge aufgenommen werden, daher ergeben sich bei den File-IDs Lücken.
+
 ## Kennzahlen des Korpus
 Insgesamt umfasst das Korpus über 1.3 Millionen Token, die sich auf 1.287 Beiträge verteilen.
 
