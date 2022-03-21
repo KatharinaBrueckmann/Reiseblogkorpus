@@ -20,7 +20,8 @@ Die zur Auszeichnung verwendeten Elemente sind ein echtes Subset der [TEI-P5-Ric
 
 Bestimmte Eigenschaften der Reiseblogbeiträge wurden nicht in das Datenmodell aufgenommen. Dazu zählen insbesondere folgende:
 - Abbildungen und zugehörige Bildunterschriften
-- Verlinkungen (der Ankertext bleibt bestehen) 
+- Verlinkungen (der Ankertext bleibt bestehen)
+- Whitespaces
 
 Zudem konnten nicht alle Strukturinformationen der Autor:innen in bestehender Form übernommen werden, da logisch übergeordnete Elemente (z.B. div) in TEI-XML nicht Kindelement eines logisch untergeordneten Elements (z.B. p) sein dürfen. 
 
