@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_318" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Klick-Tipp: So machst Du Dein Fahrrad fit</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="184" unit="token"/>
+        <measure quantity="137" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Klick-Tipp: So machst Du Dein Fahrrad fit</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2014/11/28/klick-tipp-machst-du-dein-fahrrad-fit/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2014-11-28T11:15:06+00:00" type="published"/><date when="2015-05-20T10:24:01+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>bike fit machen</term><term>fahrrad</term><term>fahrrad 26 zoll</term><term>fahrrad.de</term><term>fahrradreparatur</term><term>reparatur fahrrad</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="die" pos="ART">Die</w><w lemma="kalt" pos="ADJA">kalte</w><w lemma="Jahreszeit" pos="NN">Jahreszeit</w><w lemma="nutzen" pos="VVFIN">nutzen</w><w lemma="viele" pos="PIS">viele</w><pc pos="$,">,</pc><w lemma="um" pos="KOUI">um</w><w lemma="ihr" pos="PPOSAT">ihr</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="durchchecken" pos="VVIZU">durchzuchecken</w><w lemma="und" pos="KON">und</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="fit" pos="ADJD">fit</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="machen" pos="VVINF">machen</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="Rad" pos="NN">Rad</w><w lemma="erst" pos="ADV">erst</w><w lemma="vor" pos="APPR">vor</w><w lemma="eine" pos="ART">ein</w><w lemma="paar" pos="PIAT">paar</w><w lemma="Woche" pos="NN">Wochen</w><w lemma="komplett" pos="ADJD">komplett</w><w lemma="auseinander" pos="ADV">auseinander</w><w lemma="nehmen" pos="VVPP">genommen</w><pc pos="$,">,</pc><w lemma="Teil" pos="NN">Teile</w><w lemma="tauschen" pos="VVPP">getauscht</w><w lemma="und" pos="KON">und</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="zusammen" pos="ADV">zusammen</w><w lemma="schrauben" pos="VVPP">geschraubt</w><pc pos="$.">.</pc><w lemma="und" pos="KON">Und</w><w lemma="obwohl" pos="KOUS">obwohl</w><w lemma="ich" pos="PPER">ich</w><w lemma="es" pos="PPER">es</w><w lemma="schon" pos="ADV">schon</w><w lemma="so" pos="ADV">so</w><w lemma="oft" pos="ADV">oft</w><w lemma="machen" pos="VVPP">gemacht</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$,">,</pc><w lemma="brauchen" pos="VVFIN">brauche</w><w lemma="ich" pos="PPER">ich</w><w lemma="doch" pos="ADV">doch</w><w lemma="bei" pos="APPR">bei</w><w lemma="einige" pos="PIAT">einigen</w><w lemma="Sache" pos="NN">Sachen</w><w lemma="immer" pos="ADV">immer</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="eine" pos="ART">einen</w><w lemma="Anleitung" pos="NN">Anleitung</w><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Mir</w><w lemma="helfen" pos="VVFIN">hilft</w><w lemma="dann" pos="ADV">dann</w><w lemma="meist" pos="ADV">meist</w><w lemma="die" pos="ART">der</w><w lemma="„BikeBastlWastl" pos="NN">„BikeBastlWastl</w><pc pos="$(">“</pc><pc pos="$,">,</pc><w lemma="die" pos="PRELS">der</w><w lemma="ich" pos="PPER">mir</w><w lemma="mit" pos="APPR">mit</w><w lemma="sein" pos="PPOSAT">seinen</w><w lemma="klein" pos="ADJA">kleinen</w><w lemma="Film" pos="NN">Filmen</w><w lemma="immer" pos="ADV">immer</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="zeigen" pos="VVFIN">zeigt</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Schaltung" pos="NN">Schaltung</w><w lemma="richtig" pos="ADJD">richtig</w><w lemma="einstellen" pos="VVIZU">einzustellen</w><pc pos="$,">,</pc><w lemma="oder" pos="KON">oder</w><w lemma="die" pos="ART">die</w><w lemma="Lager" pos="NN">Lager</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="montieren" pos="VVINF">montieren</w><pc pos="$.">.</pc><w lemma="dann" pos="ADV">Dann</w><w lemma="stehen" pos="VVFIN">steht</w><w lemma="die" pos="ART">das</w><w lemma="Tablet" pos="NN">Tablet</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">der</w><w lemma="Werkbank" pos="NN">Werkbank</w><w lemma="und" pos="KON">und</w><w lemma="Bastl" pos="NN">Bastl</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="alle" pos="PIAT">alles</w><w lemma="Schritt" pos="NN">Schritt</w><w lemma="für" pos="APPR">für</w><w lemma="Schritt" pos="NN">Schritt</w><w lemma="mit" pos="APPR">mit</w><w lemma="ich" pos="PPER">mir</w><w lemma="durch" pos="PTKVZ">durch</w><pc pos="$.">.</pc></p><p><w lemma="heute" pos="ADV">Heute</w><w lemma="Morgen" pos="NN">Morgen</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="dann" pos="ADV">dann</w><w lemma="eine" pos="ART">ein</w><w lemma="kostenlos" pos="ADJA">kostenloses</w><w lemma="Ebook" pos="NN">eBook</w><w lemma="von" pos="APPR">von</w><w lemma="Fahrrad.de" pos="NN">Fahrrad.de</w><w lemma="finden" pos="VVPP">gefunden</w><pc pos="$,">,</pc><w lemma="welche" pos="PWAT">welches</w><w lemma="ausführlich" pos="ADJD">ausführlich</w><w lemma="zeigen" pos="VVFIN">zeigt</w><w lemma="und" pos="KON">und</w><w lemma="beschreiben" pos="VVFIN">beschreibt</w><pc pos="$,">,</pc><w lemma="wie" pos="KOUS">wie</w><w lemma="man" pos="PIS">man</w><w lemma="sein" pos="PPOSAT">sein</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="instand" pos="PTKVZ">instand</w><w lemma="halten" pos="VVFIN">hält</w><pc pos="$.">.</pc><w lemma="unter" pos="APPR">Unter</w><w lemma="die" pos="ART">dem</w><w lemma="Titel" pos="NN">Titel</w><pc pos="$.">:</pc><w lemma="„Fahrradreparatur" pos="NN">„Fahrradreparatur</w><pc pos="$(">–</pc><w lemma="so" pos="ADV">So</w><w lemma="machen" pos="VVFIN">machst</w><w lemma="du" pos="PPER">Du</w><w lemma="dein" pos="PPOSAT">Dein</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="fit" pos="ADJD">fit</w><pc pos="$(">“</pc><w lemma="geben" pos="VVFIN">gibt</w><w lemma="es" pos="PPER">es</w><w lemma="Tip" pos="NN">Tipps</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="richtig" pos="ADJA">richtigen</w><w lemma="Einstellen" pos="NN">Einstellen</w><w lemma="von" pos="APPR">von</w><w lemma="Bremse|Bremsen" pos="NN">Bremsen</w><w lemma="und" pos="KON">und</w><w lemma="Schaltung" pos="NN">Schaltung</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="auch" pos="ADV">auch</w><w lemma="die" pos="ART">dem</w><w lemma="Warte|Warten" pos="NN">Warten</w><w lemma="von" pos="APPR">von</w><w lemma="Rad" pos="NN">Rädern</w><w lemma="und" pos="KON">und</w><w lemma="Reifen" pos="NN">Reifen</w><pc pos="$.">.</pc></p><p><w lemma="für" pos="APPR">Für</w><w lemma="die" pos="ART">den</w><w lemma="erfahren" pos="ADJA">erfahrenen</w><w lemma="Schrauber" pos="NN">Schrauber</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="da" pos="ADV">da</w><w lemma="vielleicht" pos="ADV">vielleicht</w><w lemma="nichts" pos="PIAT">nichts</w><w lemma="Neue" pos="NN">Neues</w><w lemma="dabei" pos="PAV">dabei</w><pc pos="$,">,</pc><w lemma="aber" pos="ADV">aber</w><w lemma="für" pos="APPR">für</w><w lemma="diejenigen" pos="PDAT">diejenigen</w><w lemma="unter" pos="APPR">unter</w><w lemma="ihr" pos="PPER">euch</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="lieb" pos="ADJA">lieber</w><w lemma="Rad" pos="NN">Rad</w><w lemma="fahren" pos="VVFIN">fahren</w><pc pos="$,">,</pc><w lemma="als" pos="KOKOM">als</w><w lemma="Rad" pos="NN">Rad</w><w lemma="schrauben" pos="VVINF">schrauben</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="ART">das</w><w lemma="Ebook" pos="NN">eBook</w><w lemma="eine" pos="ART">ein</w><w lemma="lohnenswert" pos="ADJA">lohnenswerter</w><w lemma="Klick" pos="NN">Klick</w><pc pos="$.">.</pc></p><p><emph rend="strong"><emph rend="emphasized"><w lemma="haben" pos="VAFIN">Habt</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="noch" pos="ADV">noch</w><w lemma="weit" pos="ADJA">weitere</w><w lemma="Tip" pos="NN">Tipps</w><w lemma="für" pos="APPR">für</w><w lemma="die" pos="ART">die</w><w lemma="klein" pos="ADJA">kleinen</w><w lemma="Helfer" pos="NN">Helfer</w><w lemma="bei+die" pos="APPRART">beim</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="reparieren" pos="VVFIN">reparieren</w><w lemma="und" pos="KON">und</w><w lemma="warten" pos="VVFIN">warten</w><pc pos="$.">?</pc></emph></emph></p></body></text>
+</TEI>

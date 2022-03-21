@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LieschenRadieschenReist_405" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Vive la France</title>
+        <author>Lynn Benda</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="111" unit="token"/>
+        <measure quantity="98" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Vive la France</title>
+          <author><persName>Lynn Benda</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://lieschenradieschen-reist.com/vive-la-france/"/>
+          <ref type="urlBlog" target="https://lieschenradieschen-reist.com/"/>
+          <date when="2015-11-08T08:30:37+01:00" type="published"/><date when="2015-12-22T21:30:02+01:00" type="modified"/>
+          <date when="2022-01-17" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>europa</term><term>frankreich</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><div><head><w lemma="die" pos="ART">Die</w><w lemma="Geschichte" pos="NN">Geschichte</w><w lemma="hinter" pos="APPR">hinter</w><w lemma="die" pos="ART">dem</w><w lemma="Bild" pos="NN">Bild</w><w lemma="@card@" pos="ADJA">08.11.2015</w></head><p><emph rend="strong"><w lemma="Südfrankreich" pos="NE">Südfrankreich</w><w lemma="zu+die" pos="APPRART">zur</w><w lemma="Mittagszeit" pos="NN">Mittagszeit</w><pc pos="$.">.</pc></emph></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="schlendern" pos="VVFIN">schlendere</w><w lemma="gemütlich" pos="ADJD">gemütlich</w><w lemma="durch" pos="APPR">durch</w><w lemma="die" pos="ART">die</w><w lemma="Gasse" pos="NN">Gassen</w><pc pos="$,">,</pc><w lemma="als" pos="KOUS">als</w><w lemma="ich" pos="PPER">mir</w><w lemma="eine" pos="ART">ein</w><w lemma="alt" pos="ADJA">alter</w><w lemma="Renault" pos="NN">Renault</w><w lemma="Kasten|Kaste" pos="NN">Kasten</w><w lemma="R4" pos="NN">R4</w><w lemma="entgegen" pos="APPO">entgegen</w><w lemma="kommen" pos="VVFIN">kommt</w><pc pos="$.">.</pc><w lemma="in+die" pos="APPRART">Im</w><w lemma="Süden" pos="NN">Süden</w><w lemma="keine" pos="PIAT">keine</w><w lemma="Seltenheit" pos="NN">Seltenheit</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="lieben" pos="VVFIN">liebe</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Auto" pos="NN">Autos</w><pc pos="$,">,</pc><w lemma="auch" pos="ADV">auch</w><w lemma="wenn" pos="KOUS">wenn</w><w lemma="sie" pos="PPER">sie</w><w lemma="mittlerweile" pos="ADV">mittlerweile</w><w lemma="schon" pos="ADV">schon</w><w lemma="als" pos="KOKOM">als</w><w lemma="Oldtimer" pos="NN">Oldtimer</w><w lemma="gelten" pos="VVINF">gelten</w><w lemma="können" pos="VMFIN">könnten</w><pc pos="$.">.</pc></p><p><w lemma="die" pos="ART">Die</w><w lemma="Kurve" pos="NN">Kurve</w><w lemma="nehmen" pos="VVFIN">nimmt</w><w lemma="die" pos="ART">der</w><w lemma="Fahrer" pos="NN">Fahrer</w><w lemma="so" pos="ADV">so</w><w lemma="schwungvoll" pos="ADJD">schwungvoll</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="sich" pos="PRF">sich</w><w lemma="plötzlich" pos="ADJD">plötzlich</w><w lemma="sein" pos="PPOSAT">seine</w><w lemma="Beifahrertür" pos="NN">Beifahrertür</w><w lemma="öffnen" pos="VVFIN">öffnet</w><pc pos="$.">.</pc><w lemma="völlig" pos="ADJD">Völlig</w><w lemma="perplex" pos="ADJD">perplex</w><w lemma="brauchen" pos="VVFIN">braucht</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="einige" pos="PIAT">einige</w><w lemma="Sekunde" pos="NN">Sekunden</w><pc pos="$,">,</pc><w lemma="ehe" pos="KOUS">ehe</w><w lemma="er" pos="PPER">er</w><w lemma="die" pos="ART">die</w><w lemma="Tür" pos="NN">Tür</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="schließen" pos="VVFIN">schließt</w><pc pos="$.">.</pc><lb/><w lemma="haben" pos="VAFIN">Hätte</w><w lemma="nur" pos="ADV">nur</w><w lemma="noch" pos="ADV">noch</w><w lemma="fehlen" pos="VVPP">gefehlt</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">das</w><w lemma="eine" pos="ART">ein</w><w lemma="Baguette" pos="NN">Baguette</w><w lemma="oder" pos="KON">oder</w><w lemma="sogar" pos="ADV">sogar</w><w lemma="eine" pos="ART">ein</w><w lemma="Glas" pos="NN">Glas</w><w lemma="Rotwein" pos="NN">Rotwein</w><w lemma="raus" pos="ADV">raus</w><w lemma="fallen|gefallen" pos="VVPP">gefallen</w><w lemma="sein" pos="VAFIN">wäre</w><pc pos="$.">.</pc><lb/><w lemma="vermutlich" pos="ADV">Vermutlich</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="ART">der</w><w lemma="schon" pos="ADV">schon</w><w lemma="etwas" pos="ADV">etwas</w><w lemma="alt" pos="ADJA">ältere</w><w lemma="Herr" pos="NN">Herr</w><w lemma="gerade" pos="ADV">gerade</w><w lemma="von" pos="APPR">von</w><w lemma="eine" pos="ART">einem</w><w lemma="Apéritif" pos="NN">Apéritif</w><w lemma="mit" pos="APPR">mit</w><w lemma="sein" pos="PPOSAT">seinen</w><w lemma="Freund" pos="NN">Freunden</w><w lemma="kommen" pos="VVPP">gekommen</w><w lemma="und" pos="KON">und</w><w lemma="sein" pos="PPOSAT">seine</w><emph rend="emphasized"><w lemma="Chérie" pos="NN">Chérie</w><pc pos="$,">,</pc></emph><w lemma="warten" pos="VVFIN">wartet</w><w lemma="nun" pos="ADV">nun</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">dem</w><w lemma="Mittag" pos="NN">Mittag</w><pc pos="$.">.</pc></p><p><emph rend="strong"><w lemma="Vive" pos="ADJA">Vive</w><w lemma="la" pos="FM">la</w><w lemma="France" pos="NE">France</w><pc pos="$(">–</pc></emph><w lemma="Ich" pos="NN">Ich</w><w lemma="lieben" pos="VVFIN">liebe</w><w lemma="es" pos="PPER">es</w><w lemma="einfach" pos="ADJD">einfach</w><pc pos="$.">.</pc></p></div></body></text>
+</TEI>

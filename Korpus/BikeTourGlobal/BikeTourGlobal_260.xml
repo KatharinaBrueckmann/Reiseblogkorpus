@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_260" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Umfrage „DAS Reiserad 2016“ – Hier sind die Gewinner!</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="188" unit="token"/>
+        <measure quantity="140" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Umfrage „DAS Reiserad 2016“ – Hier sind die Gewinner!</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2016/06/02/umfrage-das-reiserad-2016-hier-sind-die-gewinner/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2016-06-02T16:05:56+00:00" type="published"/><date when="2016-06-02T15:53:09+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>das reiserad 2016</term><term>fahrrad</term><term>gewinner</term><term>radreise</term><term>reiserad</term><term>umfrage</term><term>verlosung</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="lieb" pos="ADJA">Liebe</w><w lemma="Leute" pos="NN">Leute</w><pc pos="$,">,</pc><w lemma="ich" pos="PPER">ich</w><w lemma="freuen" pos="VVFIN">freue</w><w lemma="ich" pos="PRF">mich</w><w lemma="sehr" pos="ADV">sehr</w><pc pos="$,">,</pc><w lemma="denn" pos="KON">denn</w><w lemma="sagenhaft" pos="ADJA">sagenhafte</w><w lemma="@card@" pos="CARD">408</w><w lemma="Teilnehmer" pos="NN">Teilnehmer</w><w lemma="haben" pos="VAFIN">hatte</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Umfrage" pos="NN">Umfrage</w><w lemma="„DAS" pos="NN">„DAS</w><w lemma="Reiserad" pos="NN">Reiserad</w><w lemma="@card@" pos="CARD">2016</w><pc pos="$(">“</pc><pc pos="$.">.</pc><w lemma="in+die" pos="APPRART">Im</w><w lemma="Vergleich" pos="NN">Vergleich</w><w lemma="zu" pos="APPR">zu</w><w lemma="die" pos="ART">den</w><w lemma="@card@" pos="ADJA">184</w><w lemma="Teilnehmer" pos="NN">Teilnehmern</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Jahr" pos="NN">Jahr</w><w lemma="@card@" pos="CARD">2014</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="PDS">das</w><w lemma="schon" pos="ADV">schon</w><w lemma="eine" pos="ART">eine</w><w lemma="deutlich" pos="ADJA">deutliche</w><w lemma="Steigerung" pos="NN">Steigerung</w><pc pos="$.">.</pc></p><p><w lemma="jetzt" pos="ADV">Jetzt</w><w lemma="liegen" pos="VVFIN">liegt</w><w lemma="sehr" pos="ADV">sehr</w><w lemma="viele" pos="PIAT">viel</w><w lemma="Arbeit" pos="NN">Arbeit</w><w lemma="vor" pos="APPR">vor</w><w lemma="ich" pos="PPER">mir</w><pc pos="$.">:</pc><w lemma="Auswerten" pos="NN">Auswerten</w><pc pos="$,">,</pc><w lemma="vergleichen" pos="VVINF">vergleichen</w><pc pos="$,">,</pc><w lemma="aufbereiten" pos="VVINF">aufbereiten</w><pc pos="$.">.</pc><w lemma="haben" pos="VAFIN">Habt</w><w lemma="also" pos="ADV">also</w><w lemma="etwas" pos="PIAT">etwas</w><w lemma="Geduld" pos="NN">Geduld</w><w lemma="mit" pos="APPR">mit</w><w lemma="ich" pos="PPER">mir</w><pc pos="$,">,</pc><w lemma="denn" pos="KON">denn</w><w lemma="es" pos="PPER">es</w><w lemma="werden" pos="VAFIN">wird</w><w lemma="etwas" pos="ADV">etwas</w><w lemma="dauern" pos="VVINF">dauern</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="hoffen" pos="VVFIN">hoffe</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="ich" pos="PPER">ich</w><w lemma="dann" pos="ADV">dann</w><w lemma="aber" pos="ADV">aber</w><w lemma="pünktlich" pos="ADJD">pünktlich</w><w lemma="zu+die" pos="APPRART">zur</w><w lemma="Eurobike" pos="NN">Eurobike</w><w lemma="@card@" pos="CARD">2016</w><w lemma="die" pos="ART">die</w><w lemma="erst" pos="ADJA">ersten</w><w lemma="Ergebnis" pos="NN">Ergebnisse</w><w lemma="präsentieren" pos="VVINF">präsentieren</w><w lemma="können" pos="VMFIN">kann</w><pc pos="$.">.</pc></p><div><head><w lemma="doch" pos="KON">Doch</w><w lemma="jetzt" pos="ADV">jetzt</w><w lemma="sollen" pos="VMFIN">soll</w><w lemma="es" pos="PPER">es</w><w lemma="um" pos="APPR">um</w><w lemma="die" pos="ART">die</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="die" pos="ART">der</w><w lemma="Buch" pos="NN">Bücher</w><w lemma="gehen" pos="VVINF">gehen</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">die</w><w lemma="ich" pos="PPER">ich</w><w lemma="ausloben" pos="VVPP">ausgelobt</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$.">.</pc></head><p><w lemma="fast" pos="ADV">Fast</w><w lemma="@card@" pos="CARD">200</w><w lemma="Leute" pos="NN">Leute</w><w lemma="haben" pos="VAFIN">haben</w><w lemma="mitmachen" pos="VVPP">mitgemacht</w><w lemma="und" pos="KON">und</w><w lemma="ihr" pos="PPOSAT">ihren</w><w lemma="Name" pos="NN">Namen</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="Ring" pos="NN">Ring</w><w lemma="werfen" pos="VVPP">geworfen</w><pc pos="$.">.</pc><w lemma="und" pos="KON">Und</w><w lemma="ich" pos="PPER">ich</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ihr" pos="PPOSAT">ihre</w><w lemma="Name" pos="NN">Namen</w><w lemma="in" pos="APPR">in</w><w lemma="dies" pos="PDAT">diesen</w><w lemma="Kasten|Kaste" pos="NN">Kasten</w><w lemma="tun" pos="VVPP">getan</w><w lemma="und" pos="KON">und</w><w lemma="aus" pos="APPR">aus</w><w lemma="alle" pos="PIS">allen</w><w lemma="die" pos="ART">die</w><w lemma="beide" pos="PIAT">beiden</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="ziehen" pos="VVPP">gezogen</w><pc pos="$.">.</pc></p><p><emph rend="strong"><w lemma="die" pos="ART">Das</w><w lemma="Buch" pos="NN">Buch</w><w lemma="„157" pos="ADJA">„157</w><w lemma="Plattfuß" pos="NN">Plattfüße</w><pc pos="$(">–</pc><w lemma="@card@" pos="CARD">52.000</w><w lemma="km" pos="NN">km</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Fahrradsattel" pos="NN">Fahrradsattel</w><pc pos="$(">“</pc><w lemma="von" pos="APPR">von</w><w lemma="Susann" pos="NE">Susann</w><w lemma="Kussagk" pos="NE">Kussagk</w><w lemma="und" pos="KON">und</w><w lemma="Sönke" pos="NE">Sönke</w><w lemma="Bemmann" pos="NN">Bemmann</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="an" pos="PTKVZ">an</w><pc pos="$.">:</pc></emph></p><div><head><w lemma="Patrick" pos="NE">Patrick</w><w lemma="Leuther" pos="ADJA">Leuther</w></head><p><pc pos="$(">(</pc><w lemma="Trommelwirbel" pos="NN">Trommelwirbel</w><w lemma="und" pos="KON">und</w><w lemma="Jubel" pos="NN">Jubel</w><pc pos="$.">!</pc><w lemma="😉" pos="NN">😉</w><pc pos="$(">)</pc></p><p><emph rend="strong"><w lemma="die" pos="ART">Das</w><w lemma="Buch" pos="NN">Buch</w><w lemma="„Durchgetreten" pos="NN">„Durchgetreten</w><pc pos="$(">–</pc><w lemma="auf" pos="APPR">Auf</w><w lemma="Fahrrad" pos="NN">Fahrrädern</w><w lemma="um" pos="APPR">um</w><w lemma="die" pos="ART">die</w><w lemma="Welt" pos="NN">Welt</w><pc pos="$(">“</pc><w lemma="von" pos="APPR">von</w><w lemma="Markus" pos="NE">Markus</w><w lemma="Möller" pos="NE">Möller</w><w lemma="und" pos="KON">und</w><w lemma="Ronald" pos="NE">Ronald</w><w lemma="Prokein" pos="NE">Prokein</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="an" pos="PTKVZ">an</w><pc pos="$.">:</pc></emph></p></div><div><head><w lemma="Hannes" pos="NE">Hannes</w><w lemma="Wedekind" pos="NE">Wedekind</w></head><p><pc pos="$(">(</pc><w lemma="Trommelwirbel" pos="NN">Trommelwirbel</w><w lemma="und" pos="KON">und</w><w lemma="Jubel" pos="NN">Jubel</w><pc pos="$.">!</pc><w lemma="😉" pos="ADJA">😉</w><pc pos="$(">)</pc></p><p><emph rend="strong"><w lemma="Ich" pos="NN">Ich</w><w lemma="gratulieren" pos="VVFIN">gratuliere</w><w lemma="beide" pos="PIAT">beiden</w><w lemma="Gewinner" pos="NN">Gewinnern</w><pc pos="$.">.</pc><w lemma="sie" pos="PPER">Ihr</w><w lemma="bekommen" pos="VVFIN">bekommt</w><w lemma="eine" pos="ART">eine</w><w lemma="Mail" pos="NE">Mail</w><w lemma="von" pos="APPR">von</w><w lemma="ich" pos="PPER">mir</w><pc pos="$.">.</pc></emph></p><p><w lemma="bei" pos="APPR">Bei</w><w lemma="alle" pos="PIAT">allen</w><w lemma="andere" pos="PIS">anderen</w><w lemma="bedanken" pos="VVFIN">bedanke</w><w lemma="ich" pos="PPER">ich</w><w lemma="ich" pos="PRF">mich</w><w lemma="ganz" pos="ADV">ganz</w><w lemma="herzlich" pos="ADJD">herzlich</w><pc pos="$.">!</pc><w lemma="toll" pos="ADJD">Toll</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="ihr" pos="PPER">euch</w><w lemma="durch" pos="APPR">durch</w><w lemma="die" pos="ART">die</w><w lemma="Frage" pos="NN">Fragen</w><w lemma="wühlen" pos="VVPP">gewühlt</w><w lemma="haben" pos="VAFIN">habt</w><pc pos="$.">.</pc></p><p><w lemma="nun" pos="ADV">Nun</w><w lemma="machen" pos="VVFIN">mache</w><w lemma="ich" pos="PPER">ich</w><w lemma="ich" pos="PRF">mich</w><w lemma="mal" pos="ADV">mal</w><w lemma="an+die" pos="APPRART">ans</w><w lemma="Auswerten" pos="NN">Auswerten</w><w lemma="😉" pos="ADJD">😉</w></p></div></div></body></text>
+</TEI>

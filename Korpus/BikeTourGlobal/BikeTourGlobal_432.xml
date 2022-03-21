@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_432" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Pressebericht „Reise durchs Land der 1000 Hügel“</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="12" unit="token"/>
+        <measure quantity="12" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Pressebericht „Reise durchs Land der 1000 Hügel“</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2010/03/05/pressebericht-reise-durchs-land-der-1000-hugel/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2010-03-05T13:27:37+00:00" type="published"/><date when="2015-05-20T09:41:28+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>afrika</term><term>gorillas</term><term>kampala</term><term>nilpferde</term><term>queen elisabeth nationalpark</term><term>ruanda</term><term>uganda</term><term>victoriasee</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="in+die" pos="APPRART">Im</w><w lemma="Hamburger" pos="ADJA">Hamburger</w><w lemma="Wochenblatt" pos="NN">Wochenblatt</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="eine" pos="ART">ein</w><w lemma="Artikel" pos="NN">Artikel</w><w lemma="über" pos="APPR">über</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Radtour" pos="NN">Radtour</w><w lemma="erscheinen" pos="VVPP">erschienen</w><pc pos="$.">.</pc></p><p><w lemma="Teil1" pos="NN">Teil1</w><pc pos="$.">:</pc><w lemma="Ruanda" pos="NE">Ruanda</w></p></body></text>
+</TEI>

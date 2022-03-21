@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_366" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Richtig gute Filme: der VELOBerlin Film Award</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="161" unit="token"/>
+        <measure quantity="130" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Richtig gute Filme: der VELOBerlin Film Award</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2014/02/26/richtig-gute-filme-der-veloberlin-film-award/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2014-02-26T08:13:12+00:00" type="published"/><date when="2015-05-20T09:09:49+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>fahrrad</term><term>fahrradfilme</term><term>kurzfilme</term><term>velo berlin</term><term>veloberlin film award</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="über" pos="APPR">Über</w><w lemma="Dominik" pos="NE">Dominik</w><w lemma="von" pos="APPR">von</w><w lemma="Velofahrer.ch" pos="NN">Velofahrer.ch</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="ich" pos="PPER">ich</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">den</w><w lemma="VELOBerlin" pos="NE">VELOBerlin</w><w lemma="Film" pos="NN">Film</w><w lemma="Award" pos="NN">Award</w><w lemma="stoßen" pos="VVPP">gestoßen</w><pc pos="$.">.</pc></p><p><w lemma="dies" pos="PDAT">Dieser</w><w lemma="Award" pos="NN">Award</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="eine" pos="ART">ein</w><w lemma="international" pos="ADJA">internationaler</w><w lemma="Onlinepreis" pos="NN">Onlinepreis</w><w lemma="für" pos="APPR">für</w><w lemma="Fahrradfilm" pos="NN">Fahrradfilme</w><w lemma="und" pos="KON">und</w><w lemma="derzeit" pos="ADV">derzeit</w><w lemma="können" pos="VMFIN">könnt</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="mit" pos="APPR">mit</w><w lemma="euer" pos="PPOSAT">eurer</w><w lemma="Stimme" pos="NN">Stimme</w><w lemma="die" pos="ART">die</w><w lemma="gut" pos="ADJA">besten</w><w lemma="Film" pos="NN">Filme</w><w lemma="voten" pos="VVFIN">voten</w><pc pos="$.">.</pc></p><p><w lemma="aus" pos="APPR">Aus</w><w lemma="über" pos="APPR">über</w><w lemma="@card@" pos="CARD">200</w><w lemma="Einreichung" pos="NN">Einreichungen</w><w lemma="aus" pos="APPR">aus</w><w lemma="@card@" pos="CARD">45</w><w lemma="Land" pos="NN">Ländern</w><w lemma="werden" pos="VAFIN">wurden</w><w lemma="@card@" pos="CARD">18</w><w lemma="Kurzfilm" pos="NN">Kurzfilme</w><w lemma="auswählen" pos="VVPP">ausgewählt</w><pc pos="$.">.</pc><w lemma="diese" pos="PDS">Diese</w><w lemma="sollen" pos="VMFIN">solltet</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="ihr" pos="PPER">euch</w><w lemma="unbedingt" pos="ADJD">unbedingt</w><w lemma="anschauen" pos="VVINF">anschauen</w><pc pos="$,">,</pc><w lemma="denn" pos="KON">denn</w><w lemma="sie" pos="PPER">sie</w><w lemma="zeigen" pos="VVFIN">zeigen</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="nur" pos="ADV">nur</w><w lemma="auf" pos="APPR">auf</w><w lemma="lustig" pos="ADJA">lustige</w><pc pos="$,">,</pc><w lemma="dramatisch" pos="ADJA">dramatische</w><w lemma="oder" pos="KON">oder</w><w lemma="dokumentarisch" pos="ADJA">dokumentarische</w><w lemma="Art" pos="NN">Art</w><w lemma="und" pos="KON">und</w><w lemma="Weise" pos="NN">Weise</w><pc pos="$,">,</pc><w lemma="was" pos="PRELS">was</w><w lemma="Fahrrad" pos="NN">Fahrräder</w><w lemma="für" pos="APPR">für</w><w lemma="Mensch" pos="NN">Menschen</w><w lemma="bedeuten" pos="VVINF">bedeuten</w><w lemma="können" pos="VMINF">können</w><pc pos="$,">,</pc><w lemma="sondern" pos="KON">sondern</w><w lemma="sie" pos="PPER">sie</w><w lemma="sein" pos="VAFIN">sind</w><w lemma="auch" pos="ADV">auch</w><w lemma="eine" pos="ART">ein</w><w lemma="gut" pos="ADJA">guter</w><w lemma="Maßstab" pos="NN">Maßstab</w><w lemma="dafür" pos="PAV">dafür</w><pc pos="$,">,</pc><w lemma="welche" pos="PRELS">welche</w><w lemma="Qualität" pos="NN">Qualität</w><w lemma="Kurzfilm" pos="NN">Kurzfilme</w><w lemma="oder" pos="KON">oder</w><w lemma="„Fahrradfilm" pos="NN">„Fahrradfilme</w><pc pos="$(">“</pc><w lemma="heute" pos="ADV">heute</w><w lemma="haben" pos="VAINF">haben</w><w lemma="können" pos="VMFIN">können</w><pc pos="$.">.</pc></p><div><head><w lemma="mein" pos="PPOSAT">Meine</w><w lemma="Favorit" pos="NN">Favoriten</w><w lemma="sein" pos="VAFIN">sind</w><pc pos="$.">:</pc></head><p><w lemma="„The" pos="NN">„The</w><w lemma="road" pos="NE">road</w><w lemma="ahead" pos="NE">ahead</w><pc pos="$(">“</pc><w lemma="von" pos="APPR">von</w><w lemma="Sindre" pos="NE">Sindre</w><w lemma="Ulvik" pos="NE">Ulvik</w><w lemma="Peladeau" pos="NN">Peladeau</w><w lemma="aus" pos="APPR">aus</w><w lemma="Kanada" pos="NE">Kanada</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">der</w><w lemma="eine" pos="ART">eine</w><w lemma="Radreise" pos="NN">Radreise</w><w lemma="von" pos="APPR">von</w><w lemma="Montreal" pos="NE">Montreal</w><w lemma="nach" pos="APPR">nach</w><w lemma="New" pos="NE">New</w><w lemma="Orleans" pos="NE">Orleans</w><w lemma="zeigen" pos="VVFIN">zeigt</w><pc pos="$.">.</pc></p><p><w lemma="„Two" pos="NE">„Two</w><w lemma="wheels" pos="NE">wheels</w><w lemma="good" pos="NE">good</w><pc pos="$(">“</pc><w lemma="von" pos="APPR">von</w><w lemma="Barry" pos="NE">Barry</w><w lemma="Gen" pos="NN">Gene</w><w lemma="Murphy" pos="NE">Murphy</w><w lemma="aus" pos="APPR">aus</w><w lemma="Irland" pos="NE">Irland</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">der</w><w lemma="vier" pos="CARD">vier</w><pc pos="$(">“</pc><w lemma="Veteran" pos="NN">Veteranen</w><w lemma="”" pos="NN">”</w><w lemma="und" pos="KON">und</w><w lemma="ihr" pos="PPOSAT">ihr</w><w lemma="Leben" pos="NN">Leben</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Sattel" pos="NN">Sattel</w><w lemma="dokumentieren" pos="VVPP">dokumentiert</w><pc pos="$.">.</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="„The" pos="NN">„The</w><w lemma="Spokesman" pos="NN">Spokesman</w><pc pos="$(">“</pc><w lemma="von" pos="APPR">von</w><w lemma="Dean" pos="NE">Dean</w><w lemma="Saffron" pos="NE">Saffron</w><w lemma="aus" pos="APPR">aus</w><w lemma="Australien" pos="NE">Australien</w><pc pos="$,">,</pc><w lemma="die" pos="ART">der</w><w lemma="James" pos="NE">James</w><w lemma="begleiten" pos="VVPP">begleitet</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">einen</w><w lemma="Mann" pos="NN">Mann</w><pc pos="$,">,</pc><w lemma="die" pos="ART">der</w><w lemma="Fahrrad" pos="NN">Fahrräder</w><w lemma="für" pos="APPR">für</w><w lemma="die" pos="ART">die</w><w lemma="Nachwelt" pos="NN">Nachwelt</w><w lemma="sammeln" pos="VVFIN">sammelt</w><pc pos="$.">.</pc></p><p><w lemma="noch" pos="ADV">Noch</w><w lemma="bis" pos="APPR">bis</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="@ord@" pos="ADJA">30.</w><w lemma="März" pos="NN">März</w><w lemma="können" pos="VMFIN">kann</w><w lemma="unter" pos="APPR">unter</w><w lemma="www.veloberlinfilmaward.com" pos="NN">www.veloberlinfilmaward.com</w><w lemma="abstimmen" pos="VVPP">abgestimmt</w><w lemma="werden" pos="VAINF">werden</w><pc pos="$.">.</pc><w lemma="dann" pos="ADV">Dann</w><w lemma="werden" pos="VAFIN">werden</w><w lemma="die" pos="ART">die</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">der</w><w lemma="Messe" pos="NN">Messe</w><w lemma="„VeloBerlin" pos="NN">„VeloBerlin</w><pc pos="$(">“</pc><w lemma="verkünden" pos="VVPP">verkündet</w><pc pos="$.">.</pc></p></div></body></text>
+</TEI>

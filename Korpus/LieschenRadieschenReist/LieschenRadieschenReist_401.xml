@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LieschenRadieschenReist_401" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Feira de Ladra – Flohmarkt der Diebe</title>
+        <author>Lynn Benda</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="206" unit="token"/>
+        <measure quantity="157" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Feira de Ladra – Flohmarkt der Diebe</title>
+          <author><persName>Lynn Benda</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://lieschenradieschen-reist.com/feira-de-ladra-flohmarkt-der-diebe/"/>
+          <ref type="urlBlog" target="https://lieschenradieschen-reist.com/"/>
+          <date when="2015-12-13T11:47:12+01:00" type="published"/><date when="2015-12-22T21:35:53+01:00" type="modified"/>
+          <date when="2022-01-17" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>lissabon</term><term>portugal</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><div><head><w lemma="die" pos="ART">Die</w><w lemma="Geschichte" pos="NN">Geschichte</w><w lemma="hinter" pos="APPR">hinter</w><w lemma="die" pos="ART">dem</w><w lemma="Bild" pos="NN">Bild</w><w lemma="@card@" pos="CARD">13.12.2015</w></head><p><w lemma="noch" pos="ADV">Noch</w><w lemma="in+die" pos="APPRART">im</w><w lemma="vorherig" pos="ADJA">vorherigen</w><w lemma="Jahrhundert" pos="NN">Jahrhundert</w><w lemma="sollen" pos="VMFIN">sollen</w><w lemma="auf" pos="APPR">auf</w><w lemma="dies" pos="PDAT">diesem</w><w lemma="Flohmarkt" pos="NN">Flohmarkt</w><w lemma="Schmuggler" pos="NN">Schmuggler</w><w lemma="ihr" pos="PPOSAT">ihre</w><w lemma="Ware" pos="NN">Waren</w><w lemma="verkaufen" pos="VVPP">verkauft</w><w lemma="haben" pos="VAFIN">haben</w><pc pos="$.">.</pc><w lemma="eine" pos="ART">Ein</w><w lemma="Glück" pos="NN">Glück</w><w lemma="die" pos="PDS">das</w><w lemma="die" pos="ART">der</w><w lemma="Feira" pos="NE">Feira</w><w lemma="de" pos="NE">de</w><w lemma="Ladra" pos="NE">Ladra</w><w lemma="heute" pos="ADV">heute</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="mehr" pos="ADV">mehr</w><w lemma="so" pos="ADV">so</w><w lemma="eine" pos="ART">ein</w><w lemma="heiß" pos="ADJA">heißes</w><w lemma="Pflaster" pos="NN">Pflaster</w><w lemma="sein" pos="VAFIN">ist</w><pc pos="$.">.</pc></p><p><w lemma="es" pos="PPER">Es</w><w lemma="sein" pos="VAFIN">war</w><w lemma="die" pos="ART">der</w><w lemma="letzt" pos="ADJA">letzte</w><w lemma="Tag" pos="NN">Tag</w><w lemma="in" pos="APPR">in</w><w lemma="Lissabon" pos="NE">Lissabon</w><w lemma="und" pos="KON">und</w><w lemma="passend" pos="ADJD">passend</w><w lemma="zu+die" pos="APPRART">zur</w><w lemma="Aufbruchsstimmung" pos="NN">Aufbruchsstimmung</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">war</w><w lemma="die" pos="ART">der</w><w lemma="Himmel" pos="NN">Himmel</w><w lemma="voll" pos="ADJD">voll</w><w lemma="mit" pos="APPR">mit</w><w lemma="dunkel" pos="ADJA">dunklen</w><w lemma="Wolke" pos="NN">Wolken</w><pc pos="$.">.</pc><w lemma="auf" pos="APPR">Auf</w><w lemma="Grund" pos="NN">Grund</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="Tatsache" pos="NN">Tatsache</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="auch" pos="ADV">auch</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Kamera" pos="NN">Kamera</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Hotelzimmer" pos="NN">Hotelzimmer</w><w lemma="liegen" pos="VVFIN">liegen</w><w lemma="gelassen" pos="ADJD">gelassen</w><pc pos="$.">.</pc><emph rend="strong"><w lemma="eine" pos="ART">Ein</w><w lemma="dumm" pos="ADJA">dummer</w><w lemma="Fehler" pos="NN">Fehler</w><pc pos="$.">!</pc></emph></p><p><w lemma="mit" pos="APPR">Mit</w><w lemma="betreten" pos="ADJD">betreten</w><w lemma="die" pos="ART">des</w><w lemma="Flohmarkt" pos="NN">Flohmarktes</w><w lemma="Feira" pos="NE">Feira</w><w lemma="de" pos="NE">de</w><w lemma="Ladra" pos="NE">Ladra</w><pc pos="$,">,</pc><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Nähe" pos="NN">Nähe</w><w lemma="die" pos="ART">des</w><w lemma="Jardim" pos="NE">Jardim</w><w lemma="Boto" pos="NE">Boto</w><w lemma="Machado" pos="NN">Machado</w><pc pos="$,">,</pc><w lemma="kommen" pos="VVFIN">kam</w><w lemma="die" pos="ART">die</w><w lemma="Sonne" pos="NN">Sonne</w><w lemma="heraus" pos="PTKVZ">heraus</w><pc pos="$.">.</pc><w lemma="es" pos="PPER">Es</w><w lemma="sollen" pos="VMFIN">sollte</w><w lemma="die" pos="ART">der</w><w lemma="schön" pos="ADJA">schönste</w><w lemma="Tag" pos="NN">Tag</w><w lemma="unser" pos="PPOSAT">unseres</w><w lemma="Aufenthalt" pos="NN">Aufenthaltes</w><w lemma="werden" pos="VAINF">werden</w><pc pos="$.">!</pc><w lemma="Sonnenschein" pos="NN">Sonnenschein</w><pc pos="$,">,</pc><w lemma="klein" pos="ADJA">kleine</w><w lemma="Wattewolke" pos="NN">Wattewolken</w><w lemma="und" pos="KON">und</w><w lemma="dann" pos="ADV">dann</w><w lemma="die" pos="ART">das</w><w lemma="herrlich" pos="ADJA">herrliche</w><w lemma="Gedränge" pos="NN">Gedränge</w><w lemma="die" pos="ART">des</w><w lemma="Flohmarkt" pos="NN">Flohmarktes</w><pc pos="$.">.</pc><lb/><w lemma="von" pos="APPR">Von</w><w lemma="Kleidung" pos="NN">Kleidung</w><pc pos="$,">,</pc><w lemma="über" pos="APPR">über</w><w lemma="Schmuck" pos="NN">Schmuck</w><w lemma="bis" pos="APPR">bis</w><w lemma="hin" pos="ADV">hin</w><w lemma="zu" pos="PTKA">zu</w><w lemma="toll" pos="ADJA">tollen</w><w lemma="Vintage" pos="NN">Vintage</w><w lemma="Artikel" pos="NN">Artikeln</w><w lemma="lassen" pos="VVFIN">lässt</w><w lemma="sich" pos="PRF">sich</w><w lemma="dort" pos="ADV">dort</w><w lemma="alle" pos="PIS">alles</w><w lemma="finden" pos="VVINF">finden</w><pc pos="$.">.</pc><emph rend="strong"><w lemma="eine" pos="ART">Ein</w><w lemma="Jammer" pos="NN">Jammer</w><w lemma="die" pos="PRELS">das</w><w lemma="ich" pos="PPER">ich</w><w lemma="nur" pos="ADV">nur</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">dem</w><w lemma="Backpack" pos="NN">Backpack</w><w lemma="unterwegs" pos="ADV">unterwegs</w><w lemma="sein" pos="VAFIN">bin</w></emph><w lemma="und" pos="KON">und</w><w lemma="kaum" pos="ADV">kaum</w><w lemma="Platz" pos="NN">Platz</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$.">.</pc></p><p><w lemma="so" pos="ADV">So</w><w lemma="bleiben" pos="VVFIN">blieb</w><w lemma="ich" pos="PPER">mir</w><w lemma="nichts" pos="PIAT">nichts</w><w lemma="andere" pos="PIS">anderes</w><w lemma="übrig" pos="ADJD">übrig</w><w lemma="als" pos="KOKOM">als</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="staunen" pos="VVINF">staunen</w><w lemma="und" pos="KON">und</w><w lemma="ich" pos="PRF">mich</w><w lemma="an" pos="APPR">an</w><w lemma="die" pos="ART">den</w><w lemma="bunt" pos="ADJA">bunten</w><w lemma="Auslage" pos="NN">Auslagen</w><w lemma="die" pos="ART">der</w><w lemma="Händler" pos="NN">Händler</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="erfreuen" pos="VVINF">erfreuen</w><pc pos="$.">.</pc><emph rend="strong"><w lemma="und" pos="KON">Und</w><w lemma="so" pos="ADV">so</w><w lemma="ganz" pos="ADV">ganz</w><w lemma="ohne" pos="APPR">ohne</w><w lemma="Kamera" pos="NN">Kamera</w><pc pos="$,">,</pc><w lemma="nehmen" pos="VVFIN">nimmt</w><w lemma="die" pos="ART">das</w><w lemma="Auge" pos="NN">Auge</w><w lemma="auch" pos="ADV">auch</w><w lemma="manchmal" pos="ADV">manchmal</w><w lemma="viel" pos="ADV">viel</w><w lemma="mehr" pos="ADV">mehr</w><w lemma="sein" pos="VAFIN">war</w><pc pos="$.">.</pc></emph><w lemma="die" pos="ART">Das</w><w lemma="Fälschen" pos="NN">Fälschen</w><w lemma="um" pos="APPR">um</w><w lemma="eine" pos="ART">eine</w><w lemma="alt" pos="ADJA">alte</w><w lemma="Truhe" pos="NN">Truhe</w><pc pos="$,">,</pc><w lemma="geschäftig" pos="ADJA">geschäftiges</w><w lemma="Treiben" pos="NN">Treiben</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="Café" pos="NN">Cafés</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">eine</w><w lemma="streunend" pos="ADJA">streunende</w><w lemma="Katze" pos="NN">Katze</w><pc pos="$.">...</pc></p><p><w lemma="zu+die" pos="APPRART">Zum</w><w lemma="Abschluss" pos="NN">Abschluss</w><w lemma="die" pos="ART">des</w><w lemma="Bummel" pos="NN">Bummels</w><w lemma="geben" pos="VVFIN">gab</w><w lemma="es" pos="PPER">es</w><w lemma="noch" pos="ADV">noch</w><w lemma="eine" pos="ART">eine</w><w lemma="frisch" pos="ADJD">frisch</w><w lemma="gepresst" pos="ADJA">gepresste</w><w lemma="und" pos="KON">und</w><w lemma="ober" pos="ADJA">ober</w><w lemma="lecker" pos="ADJA">leckere</w><w lemma="Limonade" pos="NN">Limonade</w><pc pos="$.">!</pc><w lemma="eine" pos="ART">Ein</w><w lemma="herrlich" pos="ADJA">herrlicher</w><w lemma="Tag" pos="NN">Tag</w><w lemma="und" pos="KON">und</w><w lemma="eine" pos="ART">ein</w><w lemma="krönend" pos="ADJA">krönendes</w><w lemma="Ende" pos="NN">Ende</w><w lemma="für" pos="APPR">für</w><w lemma="die" pos="ART">den</w><w lemma="letzt" pos="ADJA">letzten</w><w lemma="Tag" pos="NN">Tag</w><w lemma="in" pos="APPR">in</w><w lemma="Lissabon" pos="NE">Lissabon</w><pc pos="$.">.</pc></p></div></body></text>
+</TEI>

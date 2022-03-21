@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_378" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Tour in Grau – eine weihnachtliche Radtour</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="181" unit="token"/>
+        <measure quantity="135" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Tour in Grau – eine weihnachtliche Radtour</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/12/26/tour-in-grau-eine-weihnachtliche-radtour/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-12-26T17:59:08+00:00" type="published"/><date when="2022-01-09T15:20:54+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>grau</term><term>graues wetter</term><term>itzehoe</term><term>radtour</term><term>schleswig-holstein</term><term>weihnachtsausfahrt</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="kurz" pos="ADJA">Kurzer</w><w lemma="Blick" pos="NN">Blick</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">das</w><w lemma="Thermometer" pos="NN">Thermometer</w><pc pos="$.">:</pc><w lemma="@card@" pos="CARD">10</w><w lemma="Grad" pos="NN">Grad</w><pc pos="$.">.</pc><w lemma="draußen" pos="ADV">Draußen</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="es" pos="PPER">es</w><w lemma="noch" pos="ADV">noch</w><w lemma="dunkel" pos="ADJD">dunkel</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="es" pos="PPER">es</w><w lemma="regnen" pos="VVFIN">regnet</w><w lemma="nicht" pos="PTKNEG">nicht</w><pc pos="$.">.</pc><w lemma="und" pos="KON">Und</w><w lemma="es" pos="PPER">es</w><w lemma="werden" pos="VAFIN">wird</w><w lemma="vermutlich" pos="ADV">vermutlich</w><w lemma="auch" pos="ADV">auch</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="hell" pos="ADJD">heller</w><pc pos="$.">.</pc><w lemma="es" pos="PPER">Es</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="ART">der</w><w lemma="@ord@" pos="ADJA">25.</w><w lemma="Dezember" pos="NN">Dezember</w><pc pos="$(">–</pc><w lemma="eine" pos="ART">ein</w><w lemma="perfekt" pos="ADJA">perfekter</w><w lemma="Tag" pos="NN">Tag</w><w lemma="für" pos="APPR">für</w><w lemma="eine" pos="ART">eine</w><w lemma="Radtour" pos="NN">Radtour</w><pc pos="$.">.</pc></p><p><w lemma="also" pos="ADV">Also</w><w lemma="die" pos="ART">das</w><w lemma="Rad" pos="NN">Rad</w><w lemma="rausholen" pos="VVPP">rausgeholt</w><pc pos="$,">,</pc><w lemma="kurz" pos="ADJD">kurz</w><w lemma="die" pos="ART">die</w><w lemma="Tasche" pos="NN">Taschen</w><w lemma="packen" pos="VVPP">gepackt</w><w lemma="und" pos="KON">und</w><w lemma="los" pos="ADJD">los</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="es" pos="PPER">es</w><w lemma="durch" pos="APPR">durch</w><w lemma="Schleswig-Holstein" pos="NE">Schleswig-Holstein</w><w lemma="nach" pos="APPR">nach</w><w lemma="Itzehoe" pos="NE">Itzehoe</w><w lemma="und" pos="KON">und</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="zurück" pos="PTKVZ">zurück</w><pc pos="$.">.</pc><w lemma="es" pos="PPER">Es</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="windig" pos="ADJD">windig</w><pc pos="$.">.</pc><w lemma="nicht" pos="PTKNEG">Nicht</w><w lemma="umsonst" pos="ADV">umsonst</w><w lemma="heißen" pos="VVFIN">heißt</w><w lemma="es" pos="PPER">es</w><pc pos="$.">:</pc><w lemma="die" pos="ART">Die</w><w lemma="Berg" pos="NN">Berge</w><w lemma="Schleswig-Holstein" pos="NE">Schleswig-Holsteins</w><w lemma="sein" pos="VAFIN">sind</w><w lemma="die" pos="ART">der</w><w lemma="Wind" pos="NN">Wind</w><pc pos="$.">.</pc><w lemma="er" pos="PPER">Er</w><w lemma="schieben" pos="VVFIN">schiebt</w><w lemma="ich" pos="PRF">mich</w><w lemma="von" pos="APPR">von</w><w lemma="hinten" pos="ADV">hinten</w><pc pos="$,">,</pc><w lemma="stoßen" pos="VVFIN">stößt</w><w lemma="ich" pos="PRF">mich</w><w lemma="von" pos="APPR">von</w><w lemma="die" pos="ART">der</w><w lemma="Seite" pos="NN">Seite</w><pc pos="$,">,</pc><w lemma="stören" pos="VVFIN">stört</w><w lemma="ich" pos="PRF">mich</w><w lemma="von" pos="APPR">von</w><w lemma="vorne" pos="ADV">vorne</w><pc pos="$.">.</pc></p><p><w lemma="trotzdem" pos="PAV">Trotzdem</w><w lemma="schaffen" pos="VVFIN">schafft</w><w lemma="er" pos="PPER">er</w><w lemma="es" pos="PPER">es</w><w lemma="nicht" pos="PTKNEG">nicht</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Wolke" pos="NN">Wolken</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="vertreiben" pos="VVINF">vertreiben</w><pc pos="$.">.</pc><w lemma="tief" pos="ADJD">Tief</w><w lemma="liegen" pos="VVFIN">liegen</w><w lemma="sie" pos="PPER">sie</w><w lemma="über" pos="APPR">über</w><w lemma="die" pos="ART">dem</w><w lemma="Land" pos="NN">Land</w><pc pos="$,">,</pc><w lemma="nur" pos="ADV">nur</w><w lemma="ab" pos="PTKVZ">ab</w><w lemma="und" pos="KON">und</w><w lemma="zu" pos="PTKA">zu</w><w lemma="schaffen" pos="VVFIN">schafft</w><w lemma="es" pos="PPER">es</w><w lemma="die" pos="ART">die</w><w lemma="Sonne" pos="NN">Sonne</w><w lemma="hindurch" pos="PTKVZ">hindurch</w><pc pos="$.">.</pc><w lemma="ansonsten" pos="ADV">Ansonsten</w><w lemma="liegen" pos="VVFIN">liegt</w><w lemma="die" pos="ART">das</w><w lemma="Land" pos="NN">Land</w><w lemma="in" pos="APPR">in</w><w lemma="Grau" pos="NN">Grau</w><pc pos="$.">.</pc><w lemma="auch" pos="ADV">Auch</w><w lemma="an+die" pos="APPRART">am</w><w lemma="nah" pos="ADJA">nächsten</w><w lemma="Tag" pos="NN">Tag</w><pc pos="$.">.</pc></p><p><w lemma="aber" pos="KON">Aber</w><w lemma="auch" pos="ADV">auch</w><w lemma="die" pos="PDS">das</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="sein" pos="PPOSAT">seinen</w><w lemma="Reiz" pos="NN">Reiz</w><pc pos="$.">.</pc><w lemma="solche" pos="PIAT">Solche</w><w lemma="Tag" pos="NN">Tage</w><w lemma="entreißen" pos="VVFIN">entreißen</w><w lemma="die" pos="ART">der</w><w lemma="Landschaft" pos="NN">Landschaft</w><w lemma="ihr" pos="PPOSAT">ihren</w><w lemma="Schleier" pos="NN">Schleier</w><w lemma="und" pos="KON">und</w><w lemma="schärfen" pos="VVFIN">schärfen</w><w lemma="die" pos="ART">den</w><w lemma="Blick" pos="NN">Blick</w><w lemma="für" pos="APPR">für</w><w lemma="Detail" pos="NN">Details</w><w lemma="und" pos="KON">und</w><w lemma="Kontrast" pos="NN">Kontraste</w><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="schon" pos="ADV">schon</w><w lemma="oft" pos="ADV">oft</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Strecke" pos="NN">Strecke</w><w lemma="fahren" pos="VVPP">gefahren</w><pc pos="$.">.</pc><w lemma="und" pos="KON">Und</w><w lemma="doch" pos="ADV">doch</w><w lemma="nehmen" pos="VVFIN">nehme</w><w lemma="ich" pos="PPER">ich</w><w lemma="sie" pos="PPER">sie</w><w lemma="heute" pos="ADV">heute</w><w lemma="anders" pos="ADV">anders</w><w lemma="wahr" pos="ADJD">wahr</w><pc pos="$.">.</pc><w lemma="fotografisch" pos="ADJD">Fotografisch</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="PDS">das</w><w lemma="herausfordernd" pos="ADJD">herausfordernd</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="auch" pos="ADV">auch</w><w lemma="spannend" pos="ADJD">spannend</w><pc pos="$.">.</pc></p><p><w lemma="@card@" pos="CARD">110</w><w lemma="Kilometer" pos="NN">Kilometer</w><w lemma="insgesamt" pos="ADV">insgesamt</w><w lemma="durch" pos="APPR">durch</w><w lemma="eine" pos="ART">ein</w><w lemma="Land" pos="NN">Land</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Weihnachtsschlaf" pos="NN">Weihnachtsschlaf</w><pc pos="$,">,</pc><w lemma="menschenleer" pos="ADJD">menschenleer</w><w lemma="und" pos="KON">und</w><w lemma="windgepeitscht" pos="ADJD">windgepeitscht</w><pc pos="$.">.</pc><w lemma="eine" pos="ART">Eine</w><w lemma="klein" pos="ADJA">kleine</w><w lemma="Runde" pos="NN">Runde</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Abschied" pos="NN">Abschied</w><w lemma="die" pos="ART">des</w><w lemma="Jahr" pos="NN">Jahres</w><pc pos="$.">.</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="lassen" pos="VVFIN">lassen</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="mitradeln" pos="VVINF">mitradeln</w><pc pos="$.">:</pc></p></body></text>
+</TEI>

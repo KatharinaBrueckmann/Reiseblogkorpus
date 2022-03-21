@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LieschenRadieschenReist_223" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Meine Bucket List</title>
+        <author>Lynn Benda</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="180" unit="token"/>
+        <measure quantity="155" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Meine Bucket List</title>
+          <author><persName>Lynn Benda</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://lieschenradieschen-reist.com/meine-bucket-list/"/>
+          <ref type="urlBlog" target="https://lieschenradieschen-reist.com/"/>
+          <date when="2015-02-03T12:45:17+01:00" type="published"/><date when="2018-10-29T20:27:03+01:00" type="modified"/>
+          <date when="2022-01-17" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>fernweh</term><term>reisen</term><term>tiere</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="ich" pos="PPER">Ich</w><w lemma="schreiben" pos="VVFIN">schreibe</w><w lemma="für" pos="APPR">für</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="Leben" pos="NN">Leben</w><w lemma="gerne" pos="ADV">gerne</w><w lemma="List|Liste" pos="NN">Listen</w><pc pos="$,">,</pc><w lemma="klar" pos="ADJD">klar</w><w lemma="die" pos="PDS">das</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Bucket" pos="NN">Bucket</w><w lemma="List" pos="NN">List</w><w lemma="hier" pos="ADV">hier</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="fehlen" pos="VVINF">fehlen</w><w lemma="dürfen" pos="VMFIN">darf</w><pc pos="$.">.</pc><w lemma="ständig" pos="ADJD">Ständig</w><w lemma="ergänzen" pos="VVPP">ergänzt</w><w lemma="und" pos="KON">und</w><w lemma="aktualisieren" pos="VVPP">aktualisiert</w><pc pos="$.">.</pc><w lemma="finden" pos="VVFIN">Findet</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="ihr" pos="PPER">euch</w><w lemma="vielleicht" pos="ADV">vielleicht</w><w lemma="auch" pos="ADV">auch</w><w lemma="wieder" pos="ADV">wieder</w><pc pos="$.">?</pc></p><p><w lemma="@ord@" pos="ADJA">1.</w><w lemma="Polarlicht" pos="NN">Polarlichter</w><w lemma="sehen" pos="VVFIN">sehen</w><lb/><w lemma="@ord@" pos="ADJA">2.</w><pc pos="$(">“</pc><w lemma="Meine" pos="NE">Meine</w><w lemma="”" pos="NN">”</w><w lemma="Afrikarunde" pos="NN">Afrikarunde</w><w lemma="beenden" pos="VVFIN">beenden</w><lb/><w lemma="@ord@" pos="ADJA">3.</w><w lemma="Paragliding" pos="NN">Paragliding</w><lb/><w lemma="@ord@" pos="ADV">4.</w><del><w lemma="noch" pos="ADV">Noch</w><w lemma="eine" pos="ART">ein</w><w lemma="Tattoo" pos="NN">Tattoo</w><w lemma="machen" pos="VVINF">machen</w><w lemma="lassen" pos="VVFIN">lassen</w></del><lb/><w lemma="@ord@" pos="ADV">5.</w><w lemma="eine" pos="ART">Ein</w><w lemma="Chamäleon" pos="NN">Chamäleon</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">der</w><w lemma="Hand" pos="NN">Hand</w><w lemma="halten" pos="VVFIN">halten</w><lb/><w lemma="@ord@" pos="ADJA">6.</w><w lemma="Madagaskar" pos="NE">Madagaskar</w><w lemma="bereisen" pos="VVFIN">bereisen</w><lb/><w lemma="@ord@" pos="ADJA">7.</w><w lemma="Ins" pos="NE">Ins</w><w lemma="Mount" pos="NN">Mount</w><w lemma="Everest" pos="NE">Everest</w><w lemma="Base" pos="NN">Base</w><w lemma="Camp" pos="NN">Camp</w><w lemma="wandern" pos="VVFIN">wandern</w><lb/><w lemma="@ord@" pos="ADV">8.</w><w lemma="eine" pos="ART">Ein</w><w lemma="Faultier" pos="NN">Faultier</w><w lemma="in" pos="APPR">in</w><w lemma="Costa" pos="NE">Costa</w><w lemma="Rica" pos="NE">Rica</w><w lemma="sehen" pos="VVFIN">sehen</w><lb/><w lemma="@ord@" pos="ADJA">9.</w><w lemma="First" pos="NN">First</w><w lemma="oder" pos="KON">oder</w><w lemma="Businessclass" pos="NN">Businessclass</w><w lemma="fliegen" pos="VVFIN">fliegen</w><lb/><w lemma="@ord@" pos="ADV">10.</w><w lemma="in" pos="APPR">In</w><w lemma="eine" pos="ART">einem</w><w lemma="andere" pos="ADJA">anderen</w><w lemma="Land" pos="NN">Land</w><w lemma="arbeiten" pos="VVFIN">arbeiten</w><lb/><w lemma="@ord@" pos="ADV">11.</w><w lemma="nicht" pos="PTKNEG">Nicht</w><w lemma="@card@" pos="ADJA">9</w><w lemma="to" pos="NE">to</w><w lemma="@card@" pos="CARD">5</w><w lemma="arbeiten" pos="VVINF">arbeiten</w><pc pos="$(">(</pc><w lemma="@card@" pos="CARD">11.2</w><pc pos="$.">.</pc><w lemma="eine" pos="ART">ein</w><w lemma="Café" pos="NN">Café</w><w lemma="aufmachen" pos="VVFIN">aufmachen</w><pc pos="$,">,</pc><w lemma="@card@" pos="CARD">11.3</w><pc pos="$.">.</pc><w lemma="für" pos="APPR">für</w><w lemma="immer" pos="ADV">immer</w><w lemma="reisen" pos="VVINF">reisen</w><pc pos="$(">)</pc><lb/><w lemma="@ord@" pos="ADV">12.</w><w lemma="mit" pos="APPR">Mit</w><w lemma="Wal" pos="NN">Walen</w><pc pos="$,">,</pc><w lemma="Delphin" pos="NN">Delphinen</w><w lemma="oder" pos="KON">oder</w><w lemma="Schildkröte" pos="NN">Schildkröten</w><w lemma="in" pos="APPR">in</w><w lemma="frei" pos="ADJA">freier</w><w lemma="Wildbahn" pos="NN">Wildbahn</w><w lemma="schwimmen" pos="VVFIN">schwimmen</w><lb/><del><w lemma="@ord@" pos="ADJA">13.</w><w lemma="Small" pos="FM">Small</w><w lemma="Five" pos="NN">Five</w><w lemma="Safari" pos="NN">Safari</w><w lemma="machen" pos="VVFIN">machen</w></del><lb/><del><w lemma="@ord@" pos="ADJA">14.</w><w lemma="Regen" pos="NN">Regen</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Wüste" pos="NN">Wüste</w><w lemma="erleben" pos="VVFIN">erleben</w></del><lb/><w lemma="@ord@" pos="ADJA">15.</w><w lemma="Paris" pos="NE">Paris</w><w lemma="sehen" pos="VVFIN">sehen</w><lb/><w lemma="@ord@" pos="ADJA">16.</w><w lemma="und" pos="KON">Und</w><w lemma="nach" pos="APPR">nach</w><w lemma="Nantes" pos="NE">Nantes</w><w lemma="zu" pos="APPR">zu</w><w lemma="die" pos="ART">den</w><w lemma="Machines" pos="NN">Machines</w><w lemma="de" pos="FM">de</w><w lemma="I" pos="FM">I</w><w lemma="´" pos="NN">´</w><w lemma="íle" pos="NE">íle</w><lb/><w lemma="@ord@" pos="ADJA">17.</w><w lemma="Bhutan" pos="NE">Bhutan</w><w lemma="bereisen" pos="VVFIN">bereisen</w><lb/><w lemma="@ord@" pos="ADV">18.</w><w lemma="eine" pos="ART">Eine</w><w lemma="Katze" pos="NN">Katze</w><w lemma="haben" pos="VAFIN">haben</w><lb/><w lemma="@ord@" pos="ADV">19.</w><w lemma="Sokotra" pos="ADJD">Sokotra</w><w lemma="erkunden" pos="VVFIN">erkunden</w><lb/><w lemma="@ord@" pos="ADV">20.</w><w lemma="eine" pos="ART">Eine</w><w lemma="fremd" pos="ADJA">fremde</w><w lemma="Sprache" pos="NN">Sprache</w><w lemma="lernen" pos="VVFIN">lernen</w><lb/><w lemma="@ord@" pos="ADV">21.</w><w lemma="auf" pos="APPR">Auf</w><w lemma="die" pos="ART">den</w><w lemma="Kilimandscharo" pos="NN">Kilimandscharo</w><w lemma="wandern" pos="VVFIN">wandern</w><lb/><w lemma="@ord@" pos="ADV">22.</w><w lemma="die" pos="ART">Den</w><w lemma="Original" pos="NN">Original</w><w lemma="Königsfelsen" pos="NN">Königsfelsen</w><w lemma="aus" pos="APPR">aus</w><w lemma="die" pos="ART">der</w><w lemma="König" pos="NN">König</w><w lemma="die" pos="ART">der</w><w lemma="Löwe" pos="NN">Löwen</w><w lemma="sehen" pos="VVFIN">sehen</w><lb/><w lemma="@ord@" pos="ADV">23.</w><w lemma="mein" pos="PPOSAT">Meinen</w><w lemma="Geburtstag" pos="NN">Geburtstag</w><w lemma="On" pos="NE">On</w><w lemma="Tour" pos="NN">Tour</w><w lemma="verbringen" pos="VVFIN">verbringen</w><lb/><w lemma="@ord@" pos="ADV">24.</w><w lemma="die" pos="ART">Die</w><w lemma="Tour" pos="NN">Tour</w><w lemma="de" pos="NE">de</w><w lemma="France" pos="NE">France</w><w lemma="wahlweise" pos="ADJD">wahlweise</w><w lemma="in" pos="APPR">in</w><w lemma="eine" pos="ART">einem</w><w lemma="Wohnmobil" pos="NN">Wohnmobil</w><w lemma="oder" pos="KON">oder</w><w lemma="direkt" pos="ADJD">direkt</w><w lemma="in+die" pos="APPRART">im</w><lb/><w lemma="Mannschaftswagen" pos="NN">Mannschaftswagen</w><w lemma="begleiten" pos="VVFIN">begleiten</w><lb/><w lemma="@ord@" pos="ADV">25.</w><w lemma="die" pos="ART">Den</w><w lemma="Jakobsweg" pos="NN">Jakobsweg</w><w lemma="wandern" pos="VVINF">wandern</w></p></body></text>
+</TEI>

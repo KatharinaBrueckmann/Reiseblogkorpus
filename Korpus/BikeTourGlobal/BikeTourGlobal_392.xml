@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_392" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Einmal Himalaya und zurück – mit mehr als 50 Bildern auf das Dach der Welt</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="77" unit="token"/>
+        <measure quantity="64" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Einmal Himalaya und zurück – mit mehr als 50 Bildern auf das Dach der Welt</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/09/13/einmal-himalaya-und-zuruck-mit-mehr-als-50-bildern-auf-das-dach-der-welt/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-09-13T16:00:14+00:00" type="published"/><date when="2017-01-06T14:00:18+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>biketour</term><term>bombay</term><term>china</term><term>himalaya</term><term>leipzig</term><term>mount everest</term><term>radreise</term><term>tibet</term><term>transasien</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="ich" pos="PPER">Ich</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="die" pos="ART">die</w><w lemma="Zeit" pos="NN">Zeit</w><w lemma="nutzen" pos="VVPP">genutzt</w><w lemma="und" pos="KON">und</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="eine" pos="ART">ein</w><w lemma="paar" pos="PIAT">paar</w><w lemma="mein" pos="PPOSAT">meiner</w><w lemma="Dia" pos="NN">Dias</w><w lemma="einscannen" pos="VVPP">eingescannt</w><pc pos="$.">.</pc><w lemma="diesmal" pos="ADV">Diesmal</w><w lemma="von" pos="APPR">von</w><w lemma="die" pos="ART">der</w><w lemma="Transasien-tour" pos="NN">Transasien-Tour</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="nach" pos="APPR">nach</w><w lemma="Bombay" pos="NE">Bombay</w><pc pos="$.">.</pc></p><p><w lemma="natürlich" pos="ADV">Natürlich</w><w lemma="geben" pos="VVFIN">gibt</w><w lemma="es" pos="PPER">es</w><w lemma="bereits" pos="ADV">bereits</w><w lemma="eine" pos="ART">einen</w><w lemma="Reisebericht" pos="NN">Reisebericht</w><w lemma="mit" pos="APPR">mit</w><w lemma="viele" pos="PIAT">vielen</w><w lemma="Bild" pos="NN">Bildern</w><w lemma="und" pos="KON">und</w><w lemma="auch" pos="ADV">auch</w><w lemma="eine" pos="ART">ein</w><w lemma="Erlebnisbericht" pos="NN">Erlebnisbericht</w><w lemma="von+die" pos="APPRART">vom</w><w lemma="Dach" pos="NN">Dach</w><w lemma="die" pos="ART">der</w><w lemma="Welt" pos="NN">Welt</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="nun" pos="ADV">nun</w><w lemma="haben" pos="VAFIN">habt</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="vermutlich" pos="ADV">vermutlich</w><w lemma="noch" pos="ADV">noch</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="sehen" pos="VVPP">gesehen</w><pc pos="$.">.</pc><w lemma="es" pos="PPER">Es</w><w lemma="sein" pos="VAFIN">sei</w><w lemma="denn" pos="ADV">denn</w><pc pos="$,">,</pc><w lemma="ihr" pos="PPER">ihr</w><w lemma="haben" pos="VAFIN">habt</w><w lemma="damals" pos="ADV">damals</w><w lemma="vor" pos="APPR">vor</w><w lemma="viele" pos="PIAT">vielen</w><w lemma="Jahr" pos="NN">Jahren</w><w lemma="eine" pos="ART">einen</w><w lemma="unser" pos="PPOSAT">unserer</w><w lemma="Diavortrag" pos="NN">Diavorträge</w><w lemma="besuchen" pos="VVFIN">besucht</w><w lemma="😉" pos="ADJA">😉</w></p><p><w lemma="Ich" pos="NN">Ich</w><w lemma="verschwinden" pos="VVFIN">verschwinde</w><w lemma="jetzt" pos="ADV">jetzt</w><w lemma="mal" pos="ADV">mal</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="Urlaub" pos="NN">Urlaub</w><w lemma="und" pos="KON">und</w><w lemma="lassen" pos="VVFIN">lasse</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">den</w><w lemma="Bild" pos="NN">Bildern</w><w lemma="allein" pos="PTKVZ">allein</w><pc pos="$.">.</pc><w lemma="viele" pos="PIAT">Viel</w><w lemma="Spaß" pos="NN">Spaß</w><pc pos="$.">!</pc></p></body></text>
+</TEI>

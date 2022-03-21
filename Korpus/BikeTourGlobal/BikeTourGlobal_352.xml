@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_352" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Umfrage DAS Reiserad gesucht: hier ist der Gewinner</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="128" unit="token"/>
+        <measure quantity="104" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Umfrage DAS Reiserad gesucht: hier ist der Gewinner</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2014/04/23/umfrage-das-reiserad-gesucht-hier-ist-der-gewinner/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2014-04-23T18:05:12+00:00" type="published"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>das beste reiserad</term><term>fahrrad-weltführer</term><term>gewinner</term><term>umfrage</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="lieb" pos="ADJA">Liebe</w><w lemma="Leute" pos="NN">Leute</w><pc pos="$,">,</pc><w lemma="als" pos="KOUS">als</w><w lemma="ich" pos="PPER">ich</w><w lemma="Mitte" pos="NN">Mitte</w><w lemma="März" pos="NN">März</w><w lemma="die" pos="ART">die</w><w lemma="Umfrage" pos="NN">Umfrage</w><w lemma="nach" pos="APPR">nach</w><w lemma="die" pos="ART">dem</w><w lemma="gut" pos="ADJA">besten</w><w lemma="Reiserad" pos="NN">Reiserad</w><w lemma="starten" pos="VVFIN">startete</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">war</w><w lemma="es" pos="PPER">es</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="Ziel" pos="NN">Ziel</w><pc pos="$,">,</pc><w lemma="@card@" pos="CARD">100</w><w lemma="Teilnehmer" pos="NN">Teilnehmer</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="gewinnen" pos="VVINF">gewinnen</w><pc pos="$.">.</pc><w lemma="und" pos="KON">Und</w><w lemma="es" pos="PPER">es</w><w lemma="sein" pos="VAFIN">sind</w><w lemma="insgesamt" pos="ADV">insgesamt</w><w lemma="@card@" pos="CARD">184</w><w lemma="Teilnehmer" pos="NN">Teilnehmer</w><w lemma="werden" pos="VAPP">geworden</w><pc pos="$.">!</pc><w lemma="herzlich" pos="ADJA">Herzlichen</w><w lemma="Dank" pos="NN">Dank</w><w lemma="dafür" pos="PAV">dafür</w><pc pos="$.">.</pc></p><p><w lemma="nun" pos="ADV">Nun</w><w lemma="setzen" pos="VVFIN">setzte</w><w lemma="ich" pos="PPER">ich</w><w lemma="ich" pos="PRF">mich</w><w lemma="an" pos="APPR">an</w><w lemma="die" pos="ART">die</w><w lemma="Auswertung" pos="NN">Auswertung</w><w lemma="und" pos="KON">und</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="spannen" pos="VVPP">gespannt</w><pc pos="$,">,</pc><w lemma="ob" pos="KOUS">ob</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="Plan" pos="NN">Plan</w><w lemma="aufgehen" pos="VVFIN">aufgeht</w><pc pos="$,">,</pc><w lemma="aus" pos="APPR">aus</w><w lemma="alle" pos="PIAT">all</w><w lemma="euer" pos="PPOSAT">euren</w><w lemma="Antwort" pos="NN">Antworten</w><w lemma="und" pos="KON">und</w><w lemma="Präferenz" pos="NN">Präferenzen</w><w lemma="die" pos="ART">DAS</w><w lemma="Reiserad" pos="NN">Reiserad</w><w lemma="herauskristallisieren" pos="VVIZU">herauszukristallisieren</w><pc pos="$.">:</pc><w lemma="eine" pos="ART">ein</w><w lemma="Rad" pos="NN">Rad</w><pc pos="$,">,</pc><w lemma="die" pos="PRELAT">dessen</w><w lemma="Größe" pos="NN">Größe</w><pc pos="$,">,</pc><w lemma="Rahmenmaterial" pos="NN">Rahmenmaterial</w><w lemma="und" pos="KON">und</w><w lemma="Komponente" pos="NN">Komponenten</w><w lemma="sich" pos="PRF">sich</w><w lemma="durch" pos="APPR">durch</w><w lemma="euer" pos="PPOSAT">eure</w><w lemma="Stimme" pos="NN">Stimmen</w><w lemma="und" pos="KON">und</w><w lemma="Meinung" pos="NN">Meinungen</w><w lemma="zusammensetzen" pos="VVFIN">zusammensetzt</w><pc pos="$.">.</pc><w lemma="eine" pos="ART">Ein</w><w lemma="Durchschnittsrad" pos="NN">Durchschnittsrad</w><pc pos="$,">,</pc><w lemma="aber" pos="ADV">aber</w><w lemma="von" pos="APPR">von</w><w lemma="Experte" pos="NN">Experten</w><pc pos="$.">!</pc></p><p><w lemma="doch" pos="KON">Doch</w><w lemma="zuvor" pos="ADV">zuvor</w><w lemma="gelten" pos="VVFIN">gilt</w><w lemma="es" pos="PPER">es</w><w lemma="die" pos="ART">den</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="die" pos="ART">des</w><w lemma="Fahrrad-Weltführer" pos="NN">Fahrrad-Weltführers</w><w lemma="auslosen" pos="VVIZU">auszulosen</w><pc pos="$.">.</pc><w lemma="@card@" pos="CARD">86</w><w lemma="Teilnehmer" pos="NN">Teilnehmer</w><w lemma="haben" pos="VAFIN">haben</w><w lemma="hier" pos="ADV">hier</w><w lemma="mitmachen" pos="VVPP">mitgemacht</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">der</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="sein" pos="VAFIN">ist</w><pc pos="$.">...</pc></p><div><head><w lemma="herzlich" pos="ADJA">Herzlichen</w><w lemma="Glückwunsch" pos="NN">Glückwunsch</w><w lemma="Rolf" pos="NE">Rolf</w><pc pos="$.">!</pc></head><p><w lemma="du" pos="PPER">Du</w><w lemma="bekommen" pos="VVFIN">bekommst</w><w lemma="noch" pos="ADV">noch</w><w lemma="eine" pos="ART">eine</w><w lemma="Mail" pos="NE">Mail</w><w lemma="von" pos="APPR">von</w><w lemma="ich" pos="PPER">mir</w><w lemma="und" pos="KON">und</w><w lemma="dann" pos="ADV">dann</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="du" pos="PPER">Dir</w><w lemma="die" pos="ART">das</w><w lemma="Buch" pos="NN">Buch</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="kommend" pos="ADJA">kommenden</w><w lemma="Tag" pos="NN">Tagen</w><w lemma="zu" pos="PTKVZ">zu</w><pc pos="$.">!</pc></p><p><w lemma="alle" pos="PIAT">Allen</w><w lemma="andere" pos="ADJA">anderen</w><w lemma="viele" pos="PIAT">vielen</w><pc pos="$,">,</pc><w lemma="viele" pos="PIAT">vielen</w><w lemma="Dank" pos="NN">Dank</w><w lemma="für" pos="APPR">für</w><w lemma="euer" pos="PPOSAT">eure</w><w lemma="Zeit" pos="NN">Zeit</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">das</w><w lemma="ihr" pos="PPOSAT">ihr</w><w lemma="bei" pos="APPR">bei</w><w lemma="dies" pos="PDAT">diesem</w><w lemma="Projekt" pos="NN">Projekt</w><w lemma="mitmachen" pos="VVPP">mitgemacht</w><w lemma="haben" pos="VAFIN">habt</w><pc pos="$.">!</pc></p></div></body></text>
+</TEI>

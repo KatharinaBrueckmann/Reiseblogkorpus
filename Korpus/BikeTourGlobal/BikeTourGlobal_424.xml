@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_424" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Rückblick: „Auf die große Tour – Leipzig – Marokko – Leipzig“</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="156" unit="token"/>
+        <measure quantity="112" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Rückblick: „Auf die große Tour – Leipzig – Marokko – Leipzig“</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/02/01/ruckblick-auf-die-grose-tour-leipzig-marokko-leipzig/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-02-01T13:07:44+00:00" type="published"/><date when="2017-04-14T08:51:32+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>1993</term><term>afrika</term><term>biketour</term><term>europa</term><term>fahrrad</term><term>leipzig</term><term>marokko</term><term>radreise</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="vor" pos="APPR">Vor</w><w lemma="nunmehr" pos="ADV">nunmehr</w><w lemma="@card@" pos="CARD">20</w><w lemma="Jahr" pos="NN">Jahren</w><w lemma="radeln" pos="VVFIN">radelte</w><w lemma="ich" pos="PPER">ich</w><w lemma="mit" pos="APPR">mit</w><w lemma="Stephan" pos="NE">Stephan</w><w lemma="in" pos="APPR">in</w><w lemma="@card@" pos="CARD">74</w><w lemma="Tag" pos="NN">Tagen</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="nach" pos="APPR">nach</w><w lemma="Tanger" pos="NN">Tanger</w><w lemma="und" pos="KON">und</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="zurück" pos="PTKVZ">zurück</w><pc pos="$.">.</pc><w lemma="einmal" pos="ADV">Einmal</w><w lemma="in" pos="APPR">in</w><w lemma="Marokko" pos="NE">Marokko</w><w lemma="anschlagen" pos="VVINF">anschlagen</w><w lemma="und" pos="KON">und</w><w lemma="eine" pos="ART">einen</w><w lemma="neu" pos="ADJA">neuen</w><w lemma="Kontinent" pos="NN">Kontinent</w><w lemma="betreten" pos="VVPP">betreten</w><pc pos="$.">.</pc><w lemma="eine" pos="ART">Eine</w><w lemma="absolut" pos="ADJA">absolute</w><w lemma="Reise" pos="NN">Reise</w><w lemma="in+die" pos="APPRART">ins</w><w lemma="Unbekannte" pos="NN">Unbekannte</w><w lemma="und" pos="KON">und</w><w lemma="Ungewisse" pos="NN">Ungewisse</w><pc pos="$.">.</pc></p><p><w lemma="die" pos="ART">Die</w><w lemma="Route" pos="NN">Route</w><w lemma="führen" pos="VVFIN">führte</w><w lemma="wir" pos="PPER">uns</w><w lemma="durch" pos="APPR">durch</w><w lemma="Tschechien" pos="NE">Tschechien</w><pc pos="$,">,</pc><w lemma="Österreich" pos="NE">Österreich</w><w lemma="nach" pos="APPR">nach</w><w lemma="Italien" pos="NE">Italien</w><pc pos="$,">,</pc><w lemma="durch" pos="APPR">durch</w><w lemma="die" pos="ART">die</w><w lemma="Po-Ebene" pos="NN">Po-Ebene</w><pc pos="$,">,</pc><w lemma="über" pos="APPR">über</w><w lemma="die" pos="ART">die</w><w lemma="Alp" pos="NN">Alpen</w><w lemma="weiter" pos="ADV">weiter</w><w lemma="nach" pos="APPR">nach</w><w lemma="Frankreich" pos="NE">Frankreich</w><pc pos="$,">,</pc><w lemma="Andorra" pos="NE">Andorra</w><w lemma="nach" pos="APPR">nach</w><w lemma="Spanien" pos="NE">Spanien</w><w lemma="und" pos="KON">und</w><w lemma="via" pos="APPR">via</w><w lemma="Gibraltar" pos="NE">Gibraltar</w><w lemma="nach" pos="APPR">nach</w><w lemma="Marokko" pos="NE">Marokko</w><pc pos="$.">.</pc><w lemma="von" pos="APPR">Von</w><w lemma="dort" pos="ADV">dort</w><w lemma="aus" pos="APZR">aus</w><w lemma="gehen" pos="VVFIN">ging</w><w lemma="es" pos="PPER">es</w><w lemma="über" pos="APPR">über</w><w lemma="Portugal" pos="NE">Portugal</w><pc pos="$,">,</pc><w lemma="Spanien" pos="NE">Spanien</w><pc pos="$,">,</pc><w lemma="Frankreich" pos="NE">Frankreich</w><w lemma="und" pos="KON">und</w><w lemma="Benelux" pos="NN">Benelux</w><w lemma="zurück" pos="PTKVZ">zurück</w><w lemma="nach" pos="APPR">nach</w><w lemma="Deutschland" pos="NE">Deutschland</w><pc pos="$.">.</pc></p><p><w lemma="zusammenfassen" pos="VVPP">Zusammengefasst</w><pc pos="$.">:</pc><w lemma="@card@" pos="CARD">74</w><w lemma="Tag" pos="NN">Tage</w><pc pos="$,">,</pc><w lemma="@card@" pos="CARD">7.956</w><w lemma="km" pos="NN">Km</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">einen</w><w lemma="Monat" pos="NN">Monat</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="waschen" pos="VVINF">waschen</w><pc pos="$,">,</pc><w lemma="Übernachtung" pos="NN">Übernachtung</w><w lemma="in" pos="APPR">in</w><w lemma="eine" pos="ART">einer</w><w lemma="Bushaltestelle" pos="NN">Bushaltestelle</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">das</w><w lemma="erst" pos="ADJA">erste</w><w lemma="Mal" pos="NN">Mal</w><w lemma="in" pos="APPR">in</w><w lemma="Afrika" pos="NE">Afrika</w><pc pos="$.">.</pc></p><p><w lemma="nun" pos="ADV">Nun</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="mal" pos="ADV">mal</w><w lemma="die" pos="ART">die</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="von" pos="APPR">von</w><w lemma="damals" pos="ADV">damals</w><w lemma="eingescannt" pos="ADJA">eingescannt</w><w lemma="und" pos="KON">und</w><w lemma="auch" pos="ADV">auch</w><w lemma="eine" pos="ART">einen</w><w lemma="Bericht" pos="NN">Bericht</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="finden" pos="VVPP">gefunden</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">den</w><w lemma="ich" pos="PPER">ich</w><w lemma="@card@" pos="CARD">1994</w><w lemma="über" pos="APPR">über</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Reise" pos="NN">Reise</w><w lemma="schreiben" pos="VVPP">geschrieben</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$.">.</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="ich" pos="PPER">ich</w><w lemma="hoffen" pos="VVFIN">hoffe</w><w lemma="natürlich" pos="ADV">natürlich</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="diese" pos="PDS">dieser</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="genauso" pos="ADV">genauso</w><w lemma="viele" pos="PIAT">viel</w><w lemma="Spaß" pos="NN">Spaß</w><w lemma="bringen" pos="VVFIN">bringt</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="ich" pos="PPER">mir</w><pc pos="$(">–</pc><w lemma="es" pos="PPER">es</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="schon" pos="ADV">schon</w><w lemma="interessant" pos="ADJD">interessant</w><w lemma="die" pos="ART">die</w><w lemma="Aufzeichnung" pos="NN">Aufzeichnungen</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Rechtschreibung" pos="NN">Rechtschreibung</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="Ausdrucksweise" pos="NN">Ausdrucksweise</w><w lemma="die" pos="ART">des</w><w lemma="Martin" pos="NE">Martin</w><w lemma="vor" pos="APPR">vor</w><w lemma="@card@" pos="CARD">20</w><w lemma="Jahr" pos="NN">Jahren</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="entdecken" pos="VVINF">entdecken</w><pc pos="$.">.</pc><w lemma="😉" pos="NN">😉</w></p><p><emph rend="strong"><w lemma="und" pos="KON">Und</w><w lemma="HIER" pos="NE">HIER</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="es" pos="PPER">es</w><w lemma="nun" pos="ADV">nun</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Bericht" pos="NN">Bericht</w><pc pos="$.">!</pc></emph></p></body></text>
+</TEI>

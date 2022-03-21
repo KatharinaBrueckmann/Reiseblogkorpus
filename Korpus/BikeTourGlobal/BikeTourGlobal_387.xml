@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_387" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Wüstenfieber – Mit dem Fahrrad nach Jerusalem</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="114" unit="token"/>
+        <measure quantity="93" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Wüstenfieber – Mit dem Fahrrad nach Jerusalem</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/10/24/wustenfieber-mit-dem-fahrrad-nach-jerusalem/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-10-24T18:30:57+00:00" type="published"/><date when="2015-05-20T09:18:10+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>al-bādiya</term><term>damaskus</term><term>israel</term><term>palmyra</term><term>radreise</term><term>syrien</term><term>syrische wüste</term><term>wüstentour</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="Syrien" pos="NE">Syrien</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="derzeit" pos="ADV">derzeit</w><w lemma="eine" pos="ART">ein</w><w lemma="Land" pos="NN">Land</w><pc pos="$,">,</pc><w lemma="in" pos="APPR">in</w><w lemma="die" pos="PRELS">das</w><w lemma="man" pos="PIS">man</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="reisen" pos="VVINF">reisen</w><w lemma="sollen" pos="VMFIN">sollte</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="haben" pos="VAFIN">hatte</w><w lemma="@card@" pos="CARD">1996</w><w lemma="aber" pos="KON">aber</w><w lemma="die" pos="ART">die</w><w lemma="Gelegenheit" pos="NN">Gelegenheit</w><pc pos="$,">,</pc><w lemma="ich" pos="PPER">mir</w><w lemma="dies" pos="PDAT">dieses</w><w lemma="Land" pos="NN">Land</w><w lemma="und" pos="KON">und</w><w lemma="sein" pos="PPOSAT">seine</w><w lemma="Mensch" pos="NN">Menschen</w><w lemma="nah" pos="ADJD">näher</w><w lemma="anschauen" pos="VVIZU">anzuschauen</w><pc pos="$.">.</pc></p><p><w lemma="in" pos="APPR">In</w><w lemma="@card@" pos="CARD">46</w><w lemma="Tag" pos="NN">Tagen</w><w lemma="fahren" pos="VVFIN">fuhren</w><w lemma="Stephan" pos="NE">Stephan</w><w lemma="und" pos="KON">und</w><w lemma="ich" pos="PPER">ich</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="nach" pos="APPR">nach</w><w lemma="Jerusalem" pos="NE">Jerusalem</w><w lemma="und" pos="KON">und</w><w lemma="durchqueren" pos="VVFIN">durchquerten</w><w lemma="auch" pos="ADV">auch</w><w lemma="die" pos="ART">die</w><w lemma="Al-Bādiya" pos="NE">Al-Bādiya</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="syrisch" pos="ADJA">syrische</w><w lemma="Wüste" pos="NN">Wüste</w><pc pos="$.">.</pc><w lemma="an" pos="APPR">An</w><w lemma="dies" pos="PDAT">diese</w><w lemma="@card@" pos="CARD">5.000</w><w lemma="Kilometer" pos="NN">Kilometer</w><w lemma="lang" pos="ADJA">lange</w><w lemma="Radreise" pos="NN">Radreise</w><w lemma="und" pos="KON">und</w><w lemma="besonders" pos="ADV">besonders</w><w lemma="die" pos="ART">die</w><w lemma="Wüstendurchquerung" pos="NN">Wüstendurchquerung</w><w lemma="erinnern" pos="VVFIN">erinnere</w><w lemma="ich" pos="PPER">ich</w><w lemma="ich" pos="PRF">mich</w><w lemma="immer" pos="ADV">immer</w><w lemma="noch" pos="ADV">noch</w><w lemma="sehr" pos="ADV">sehr</w><w lemma="lebhaft" pos="ADJD">lebhaft</w><pc pos="$.">.</pc><w lemma="Sie" pos="PPER">Sie</w><w lemma="gehen" pos="VVFIN">ging</w><w lemma="damals" pos="ADV">damals</w><w lemma="fast" pos="ADV">fast</w><w lemma="an" pos="APPR">an</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Grenze" pos="NN">Grenzen</w><pc pos="$.">.</pc></p><p><w lemma="nun" pos="ADV">Nun</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="es" pos="PPER">es</w><w lemma="schaffen" pos="VVPP">geschafft</w><pc pos="$,">,</pc><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="sichten" pos="VVINF">sichten</w><w lemma="und" pos="KON">und</w><w lemma="für" pos="APPR">für</w><w lemma="ihr" pos="PPER">Euch</w><w lemma="aufbereiten" pos="VVIZU">aufzubereiten</w><pc pos="$.">.</pc><w lemma="zusammen" pos="ADV">Zusammen</w><w lemma="mit" pos="APPR">mit</w><w lemma="eine" pos="ART">einer</w><w lemma="Geschichte" pos="NN">Geschichte</w><w lemma="über" pos="APPR">über</w><w lemma="Kurt" pos="NE">Kurt</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">einem</w><w lemma="Tankstellenbesitzer" pos="NN">Tankstellenbesitzer</w><w lemma="inmitten" pos="APPR">inmitten</w><w lemma="die" pos="ART">der</w><w lemma="syrisch" pos="ADJA">syrischen</w><w lemma="Wüste" pos="NN">Wüste</w><pc pos="$,">,</pc><w lemma="und" pos="KON">und</w><w lemma="eine" pos="ART">einer</w><w lemma="fast" pos="ADV">fast</w><w lemma="aussichtslos" pos="ADJA">aussichtslosen</w><w lemma="Suche" pos="NN">Suche</w><w lemma="nach" pos="APPR">nach</w><w lemma="die" pos="ART">der</w><w lemma="rettend" pos="ADJA">rettenden</w><w lemma="Straße" pos="NN">Straße</w><w lemma="in+die" pos="APPRART">im</w><w lemma="sandig" pos="ADJA">sandigen</w><w lemma="Nichts" pos="NN">Nichts</w><pc pos="$.">.</pc></p><p><emph rend="strong"><w lemma="aber" pos="ADV">Aber</w><w lemma="lesen" pos="VVFIN">lest</w><w lemma="selbst" pos="ADV">selbst</w><pc pos="$.">...</pc><w lemma="&amp;" pos="KON">&amp;</w><w lemma="gt" pos="VVFIN">gt</w><pc pos="$.">;</pc><w lemma="&amp;" pos="KON">&amp;</w><w lemma="gt" pos="VVFIN">gt</w><pc pos="$.">;</pc><w lemma="&amp;" pos="KON">&amp;</w><w lemma="gt" pos="VVFIN">gt</w><pc pos="$.">;</pc></emph></p></body></text>
+</TEI>

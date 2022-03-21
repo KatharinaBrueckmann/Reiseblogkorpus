@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_427" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Nordkapp Tour ins Reich der Mücken</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="91" unit="token"/>
+        <measure quantity="75" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Nordkapp Tour ins Reich der Mücken</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2010/10/22/nordkapp-tour-ins-reich-der-mucken/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2010-10-22T08:47:38+00:00" type="published"/><date when="2018-10-20T14:30:41+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>biketour</term><term>finnland</term><term>mücken</term><term>nordkapp</term><term>norwegen</term><term>polarkreis</term><term>schweden</term><term>skandinavien</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="vor" pos="APPR">Vor</w><w lemma="@card@" pos="CARD">15</w><w lemma="Jahr" pos="NN">Jahren</w><w lemma="fahren" pos="VVFIN">fuhren</w><w lemma="Stephan" pos="NE">Stephan</w><w lemma="und" pos="KON">und</w><w lemma="ich" pos="PPER">ich</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Nordkapp" pos="NN">Nordkapp</w><w lemma="und" pos="KON">und</w><w lemma="über" pos="APPR">über</w><w lemma="Finnland" pos="NE">Finnland</w><w lemma="zurück" pos="PTKVZ">zurück</w><w lemma="nach" pos="APPR">nach</w><w lemma="Deutschland" pos="NE">Deutschland</w><pc pos="$.">.</pc></p><p><w lemma="jetzt" pos="ADV">Jetzt</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="die" pos="ART">die</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="dazu" pos="PAV">dazu</w><w lemma="mal" pos="ADV">mal</w><w lemma="einscannen" pos="VVPP">eingescannt</w><w lemma="und" pos="KON">und</w><w lemma="eine" pos="ART">einen</w><w lemma="alt" pos="ADJA">alten</w><w lemma="Artikel" pos="NN">Artikel</w><w lemma="über" pos="APPR">über</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Reise" pos="NN">Reise</w><w lemma="ausgraben" pos="VVPP">ausgegraben</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">den</w><w lemma="ich" pos="PPER">ich</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="natürlich" pos="ADV">natürlich</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="vorenthalten" pos="VVINF">vorenthalten</w><w lemma="mögen" pos="VMFIN">möchte</w><pc pos="$.">:</pc></p><p><emph rend="strong"><w lemma="in+die" pos="APPRART">Im</w><w lemma="Reich" pos="NN">Reich</w><w lemma="die" pos="ART">der</w><w lemma="Mücke" pos="NN">Mücken</w><pc pos="$(">–</pc><w lemma="mit" pos="APPR">Mit</w><w lemma="die" pos="ART">dem</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Nordkapp" pos="NN">Nordkapp</w><w lemma="@card@" pos="CARD">1995</w></emph></p><p><w lemma="besonders" pos="ADV">Besonders</w><w lemma="mögen" pos="VMFIN">möchte</w><w lemma="ich" pos="PPER">ich</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">die</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Galerie" pos="NN">Galerie</w><w lemma="an+die" pos="APPRART">am</w><w lemma="Ende" pos="NN">Ende</w><w lemma="die" pos="ART">des</w><w lemma="Artikel" pos="NN">Artikels</w><w lemma="hinweisen" pos="VVINF">hinweisen</w><pc pos="$.">.</pc><w lemma="Mann" pos="NN">Mann</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">waren</w><w lemma="wir" pos="PPER">wir</w><w lemma="jung" pos="ADJD">jung</w><w lemma="damals" pos="ADV">damals</w><pc pos="$.">!</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="so" pos="ADV">so</w><w lemma="völlig" pos="ADJD">völlig</w><w lemma="über-ausgerüsten" pos="VVFIN">über-ausgerüstet</w><pc pos="$.">.</pc><w lemma="schließlich" pos="ADV">Schließlich</w><w lemma="erwarten" pos="VVFIN">erwarteten</w><w lemma="wir" pos="PPER">wir</w><w lemma="spätestens" pos="ADV">spätestens</w><w lemma="hinter" pos="APPR">hinter</w><w lemma="die" pos="ART">dem</w><w lemma="Polarkreis" pos="NN">Polarkreis</w><w lemma="arktisch" pos="ADJA">arktische</w><w lemma="Wetterzustand" pos="NN">Wetterzustände</w><pc pos="$.">.</pc><w lemma="die" pos="PDS">Dem</w><w lemma="sein" pos="VAFIN">war</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="so" pos="ADV">so</w><pc pos="$.">.</pc><w lemma="fast" pos="ADV">Fast</w><pc pos="$.">...</pc></p><p><w lemma="viele" pos="PIAT">Viel</w><w lemma="Spaß" pos="NN">Spaß</w><w lemma="bei+die" pos="APPRART">beim</w><w lemma="Lese|Lesen" pos="NN">Lesen</w><pc pos="$.">!</pc></p></body></text>
+</TEI>

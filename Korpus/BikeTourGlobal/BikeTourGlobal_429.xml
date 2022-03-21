@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_429" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Mit dem Rad im Reich der Götter…</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="138" unit="token"/>
+        <measure quantity="108" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Mit dem Rad im Reich der Götter…</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2010/06/12/mit-dem-rad-im-reich-der-gotter/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2010-06-12T20:15:18+00:00" type="published"/><date when="2015-09-28T14:32:48+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>asien</term><term>biketour</term><term>bombay</term><term>china</term><term>expedition</term><term>himalaya</term><term>indien</term><term>kathmandu</term><term>mount everest</term><term>mumbay</term><term>nepal</term><term>radreise</term><term>tibet</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="bei+die" pos="APPRART">Beim</w><w lemma="Durchsehen" pos="NN">Durchsehen</w><w lemma="mein" pos="PPOSAT">meiner</w><w lemma="Reiseordner" pos="NN">Reiseordner</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="ich" pos="PPER">mir</w><w lemma="eine" pos="ART">ein</w><w lemma="Artikel" pos="NN">Artikel</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">die</w><w lemma="Hand" pos="NN">Hände</w><w lemma="fallen|gefallen" pos="VVPP">gefallen</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">den</w><w lemma="ich" pos="PPER">ich</w><w lemma="@card@" pos="CARD">1998</w><w lemma="über" pos="APPR">über</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Himalaya-Überquerung" pos="NN">Himalaya-Überquerung</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">dem</w><w lemma="Weg" pos="NN">Weg</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="nach" pos="APPR">nach</w><w lemma="Bombay" pos="NE">Bombay</w><w lemma="schreiben" pos="VVPP">geschrieben</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="finden" pos="VVFIN">finde</w><w lemma="er" pos="PPER">ihn</w><w lemma="nach" pos="PTKVZ">nach</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="vor" pos="APPR">vor</w><w lemma="ganz" pos="ADV">ganz</w><w lemma="interessant" pos="ADJD">interessant</w><w lemma="und" pos="KON">und</w><w lemma="mögen" pos="VMFIN">möchte</w><w lemma="er" pos="PPER">ihn</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="vorenthalten" pos="VVPP">vorenthalten</w><pc pos="$.">.</pc><w lemma="heute" pos="ADV">Heute</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="in" pos="APPR">in</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="Region" pos="NN">Region</w><w lemma="sicherlich" pos="ADV">sicherlich</w><w lemma="viel" pos="ADV">viel</w><w lemma="passieren" pos="VVPP">passiert</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">der</w><w lemma="Fortschritt" pos="NN">Fortschritt</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="Einzug" pos="NN">Einzug</w><w lemma="halten" pos="VVPP">gehalten</w><pc pos="$(">(</pc><w lemma="Tibet-Eisenbahn" pos="NN">Tibet-Eisenbahn</w><pc pos="$(">)</pc><pc pos="$.">.</pc><w lemma="aber" pos="KON">Aber</w><w lemma="nach" pos="ADV">nach</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="vor" pos="ADV">vor</w><w lemma="dominieren" pos="VVFIN">dominiert</w><w lemma="die" pos="ART">die</w><w lemma="Natur" pos="NN">Natur</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="unendlich" pos="ADJA">unendlichen</w><w lemma="Weite|Weiten" pos="NN">Weiten</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="einzigartig" pos="ADJA">einzigartige</w><w lemma="Stimmung" pos="NN">Stimmung</w><w lemma="in+die" pos="APPRART">im</w><w lemma="„Reich" pos="NN">„Reich</w><w lemma="die" pos="ART">der</w><w lemma="Gott" pos="NN">Götter</w><pc pos="$(">“</pc><pc pos="$.">.</pc></p><p><emph rend="strong"><w lemma="„5.220m" pos="NE">„5.220m</w><pc pos="$.">:</pc><w lemma="mit" pos="APPR">Mit</w><w lemma="die" pos="ART">dem</w><w lemma="Rad" pos="NN">Rad</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Reich" pos="NN">Reich</w><w lemma="die" pos="ART">der</w><w lemma="Gott" pos="NN">Götter</w><pc pos="$(">“</pc></emph></p><p><w lemma="eine" pos="ART">Eine</w><w lemma="die" pos="ART">der</w><w lemma="hoch" pos="ADJA">höchsten</w><w lemma="Straße" pos="NN">Straßen</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="Erde" pos="NN">Erde</w><w lemma="führen" pos="VVFIN">führt</w><w lemma="in" pos="APPR">in</w><w lemma="Tibet" pos="NE">Tibet</w><w lemma="durch" pos="APPR">durch</w><w lemma="die" pos="ART">den</w><w lemma="Himalaya" pos="NE">Himalaya</w><w lemma="nach" pos="APPR">nach</w><w lemma="Nepal" pos="NE">Nepal</w><pc pos="$.">.</pc><w lemma="auf" pos="APPR">Auf</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="Strecke" pos="NN">Strecke</w><w lemma="zählen" pos="VVFIN">zählt</w><w lemma="die" pos="ART">der</w><w lemma="@card@" pos="ADJA">5220</w><w lemma="m" pos="NN">m</w><w lemma="hoch" pos="ADJA">hohe</w><w lemma="„Jia" pos="NN">„Jia</w><w lemma="Tsuo" pos="NN">Tsuo</w><w lemma="Pass" pos="NN">Paß</w><pc pos="$(">“</pc><w lemma="zu" pos="APPR">zu</w><w lemma="die" pos="ART">den</w><w lemma="groß" pos="ADJA">größten</w><w lemma="Herausforderung" pos="NN">Herausforderungen</w><pc pos="$.">.</pc><w lemma="Erdrutsch" pos="NN">Erdrutsche</w><pc pos="$,">,</pc><w lemma="Geröll" pos="NN">Geröll</w><pc pos="$,">,</pc><w lemma="reißend" pos="ADJA">reißende</w><w lemma="Fluss" pos="NN">Flüsse</w><w lemma="und" pos="KON">und</w><w lemma="Wetterumschwung" pos="NN">Wetterumschwünge</w><w lemma="erschweren" pos="VVFIN">erschweren</w><w lemma="eine" pos="ART">eine</w><w lemma="Überquerung" pos="NN">Überquerung</w><pc pos="$,">,</pc><w lemma="machen" pos="VVFIN">machen</w><w lemma="diese" pos="PDS">diese</w><w lemma="fast" pos="ADV">fast</w><w lemma="unmöglich" pos="ADJD">unmöglich</w><pc pos="$.">.</pc><w lemma="während" pos="APPR">Während</w><w lemma="unser" pos="PPOSAT">unserer</w><w lemma="Radreise" pos="NN">Radreise</w><w lemma="von" pos="APPR">von</w><w lemma="Leipzig" pos="NE">Leipzig</w><w lemma="nach" pos="APPR">nach</w><w lemma="Bombay" pos="NE">Bombay</w><w lemma="müssen" pos="VMFIN">müssen</w><w lemma="wir" pos="PPER">wir</w><w lemma="auch" pos="ADV">auch</w><w lemma="dies" pos="PDAT">diesen</w><w lemma="Pass" pos="NN">Pass</w><w lemma="bezwingen" pos="VVINF">bezwingen</w><pc pos="$.">...</pc><pc pos="$(">[</pc><w lemma="mehr" pos="ADV">mehr</w><pc pos="$(">]</pc></p></body></text>
+</TEI>

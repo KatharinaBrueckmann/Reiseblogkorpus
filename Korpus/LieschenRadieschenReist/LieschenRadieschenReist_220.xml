@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LieschenRadieschenReist_220" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Top Fernweh Filme</title>
+        <author>Lynn Benda</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="163" unit="token"/>
+        <measure quantity="127" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Top Fernweh Filme</title>
+          <author><persName>Lynn Benda</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://lieschenradieschen-reist.com/top-fernweh-filme/"/>
+          <ref type="urlBlog" target="https://lieschenradieschen-reist.com/"/>
+          <date when="2015-02-24T14:02:27+01:00" type="published"/><date when="2018-10-29T20:12:46+01:00" type="modified"/>
+          <date when="2022-01-17" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>fernweh</term><term>reisen</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><emph rend="strong"><w lemma="jede" pos="PIS">Jeder</w><w lemma="kennen" pos="VVFIN">kennt</w><w lemma="sie" pos="PPER">sie</w><pc pos="$.">.</pc><w lemma="dies" pos="PDAT">Diese</w><w lemma="Film" pos="NN">Filme</w><w lemma="die" pos="ART">die</w><w lemma="eine" pos="PIS">einen</w><w lemma="atemlos" pos="ADJD">atemlos</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Kinosessel" pos="NN">Kinosessel</w><w lemma="zurück" pos="PTKVZ">zurück</w><w lemma="lassen" pos="VVINF">lassen</w><pc pos="$,">,</pc><w lemma="als" pos="KOUS">als</w><w lemma="haben" pos="VAFIN">hätte</w><w lemma="man" pos="PIS">man</w><w lemma="selber" pos="ADV">selber</w><w lemma="die" pos="ART">die</w><w lemma="groß" pos="ADJA">größten</w><w lemma="Abenteuer" pos="NN">Abenteuer</w><w lemma="bestreiten" pos="VVPP">bestritten</w><pc pos="$.">.</pc><w lemma="nach" pos="APPR">Nach</w><w lemma="die" pos="PDAT">dessen</w><w lemma="Konsum" pos="NN">Konsum</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="man" pos="PIS">man</w><w lemma="drauf" pos="PAV">drauf</w><w lemma="und" pos="KON">und</w><w lemma="dran" pos="ADV">dran</w><w lemma="sein" pos="PPOSAT">seinen</w><w lemma="Rucksack" pos="NN">Rucksack</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="packen" pos="VVINF">packen</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Wanderstiefel" pos="NN">Wanderstiefel</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="schnüren" pos="VVINF">schnüren</w><w lemma="und" pos="KON">und</w><w lemma="einfach" pos="ADJD">einfach</w><w lemma="los" pos="ADJD">los</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="gehen" pos="VVINF">gehen</w><pc pos="$.">.</pc><w lemma="hier" pos="ADV">Hier</w><w lemma="kommen" pos="VVFIN">kommt</w><w lemma="nun" pos="ADV">nun</w><w lemma="eine" pos="ART">eine</w><w lemma="Liste" pos="NN">Liste</w><pc pos="$,">,</pc><w lemma="mit" pos="APPR">mit</w><w lemma="mein" pos="PPOSAT">meinen</w><w lemma="persönlich" pos="ADJA">persönlichen</w><w lemma="Liebling" pos="NN">Lieblings</w><w lemma="Fernweh" pos="NN">Fernweh</w><w lemma="Film" pos="NN">Filmen</w></emph></p><p><pc pos="$.">:</pc></p><list style="unordered"><item><w lemma="die" pos="ART">Das</w><w lemma="erstaunlich" pos="ADJA">erstaunliche</w><w lemma="Leben" pos="NN">Leben</w><w lemma="die" pos="ART">des</w><w lemma="Walter" pos="NE">Walter</w><w lemma="Mitty" pos="NE">Mitty</w><pc pos="$(">(</pc><w lemma="Island" pos="NE">Island</w><w lemma="rufen" pos="VVFIN">ruft</w><pc pos="$(">)</pc></item><item><w lemma="Into" pos="NN">Into</w><w lemma="the" pos="FM">the</w><w lemma="Wild" pos="NN">Wild</w><pc pos="$(">(</pc><w lemma="Ruckack" pos="NN">Ruckack</w><w lemma="auf" pos="PTKVZ">auf</w><w lemma="und" pos="KON">und</w><w lemma="los" pos="ADJD">los</w><pc pos="$.">...</pc><pc pos="$(">)</pc></item><item><w lemma="die" pos="ART">Der</w><w lemma="groß" pos="ADJA">große</w><w lemma="Trip" pos="NN">Trip</w><pc pos="$(">–</pc><w lemma="Wild" pos="NN">Wild</w><pc pos="$(">(</pc><pc pos="$.">...</pc><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="passend" pos="ADJA">passenden</w><w lemma="Wanderschuh" pos="NN">Wanderschuhe</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="vergessen" pos="VVINF">vergessen</w><pc pos="$(">)</pc></item><item><w lemma="Hector" pos="NE">Hectors</w><w lemma="Reise" pos="NN">Reise</w><pc pos="$(">–</pc><w lemma="oder" pos="KON">oder</w><w lemma="die" pos="ART">die</w><w lemma="Suche" pos="NN">Suche</w><w lemma="nach" pos="APPR">nach</w><w lemma="die" pos="ART">dem</w><w lemma="Glück" pos="NN">Glück</w><pc pos="$(">(</pc><w lemma="Glück" pos="NN">Glück</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="überall" pos="ADV">überall</w><w lemma="anders" pos="ADV">anders</w><w lemma="und" pos="KON">und</w><w lemma="doch" pos="ADV">doch</w><w lemma="auch" pos="ADV">auch</w><w lemma="gleich" pos="ADJD">gleich</w><pc pos="$(">)</pc></item><item><w lemma="Mavericks" pos="NE">Mavericks</w><pc pos="$(">(</pc><w lemma="Ich" pos="NN">Ich</w><w lemma="können" pos="VMFIN">kann</w><w lemma="zwar" pos="ADV">zwar</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="surfen" pos="VVINF">surfen</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="wo" pos="PWAV">wo</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="ART">die</w><w lemma="nah" pos="ADJA">nächste</w><w lemma="Welle" pos="NN">Welle</w><pc pos="$.">?</pc><pc pos="$(">)</pc></item><item><w lemma="Whale" pos="NN">Whale</w><w lemma="Rider" pos="NN">Rider</w><pc pos="$(">(</pc><w lemma="auf" pos="PTKVZ">Auf</w><pc pos="$,">,</pc><w lemma="auf" pos="APPR">auf</w><w lemma="nach" pos="APPR">nach</w><w lemma="Neuseeland" pos="NE">Neuseeland</w><pc pos="$(">)</pc></item><item><w lemma="Grüne" pos="NN">Grüne</w><w lemma="Tomate" pos="NN">Tomaten</w><pc pos="$(">(</pc><w lemma="und" pos="KON">Und</w><w lemma="anschließend" pos="ADJD">anschließend</w><w lemma="halten" pos="VVFIN">halten</w><w lemma="wir" pos="PPER">wir</w><w lemma="in" pos="APPR">in</w><w lemma="Amerika" pos="NE">Amerikas</w><w lemma="Südastaat" pos="NN">Südastaaten</w><pc pos="$.">...</pc><pc pos="$(">)</pc></item><item><w lemma="Forrest" pos="NN">Forrest</w><w lemma="Gump" pos="NN">Gump</w><pc pos="$(">(</pc><pc pos="$.">...</pc><w lemma="und" pos="KON">und</w><w lemma="laufen" pos="VVFIN">laufen</w><w lemma="eine" pos="ART">eine</w><w lemma="Runde" pos="NN">Runde</w><w lemma="mit" pos="APPR">mit</w><w lemma="Forrest" pos="NN">Forrest</w><w lemma="Gump" pos="NN">Gump</w><pc pos="$.">...</pc><pc pos="$(">)</pc></item><item><w lemma="Friendship" pos="NN">Friendship</w><pc pos="$(">(</pc><pc pos="$.">...</pc><pc pos="$,">,</pc><w lemma="um" pos="KOUI">um</w><w lemma="dann" pos="ADV">dann</w><w lemma="in" pos="APPR">in</w><w lemma="San" pos="NE">San</w><w lemma="Francisco" pos="NE">Francisco</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="landen" pos="VVINF">landen</w><pc pos="$(">)</pc></item><item><w lemma="die" pos="ART">Das</w><w lemma="Beste" pos="NN">Beste</w><w lemma="kommen" pos="VVFIN">kommt</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Schluss" pos="NN">Schluss</w><pc pos="$(">(</pc><w lemma="weil" pos="KOUS">weil</w><w lemma="jede" pos="PIS">jeder</w><w lemma="von" pos="APPR">von</w><w lemma="wir" pos="PRF">uns</w><w lemma="diese" pos="PDS">diese</w><w lemma="eine" pos="ART">eine</w><w lemma="Bucket" pos="NN">Bucket</w><w lemma="List" pos="NN">List</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="und" pos="KON">und</w><w lemma="man" pos="PIS">man</w><w lemma="nie" pos="ADV">nie</w><w lemma="zu" pos="PTKA">zu</w><w lemma="alt" pos="ADJD">alt</w><w lemma="sein" pos="VAFIN">ist</w><pc pos="$,">,</pc><w lemma="um" pos="KOUI">um</w><w lemma="sich" pos="PRF">sich</w><w lemma="sein" pos="PPOSAT">seine</w><w lemma="Wunsch" pos="NN">Wünsche</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="erfüllen" pos="VVINF">erfüllen</w><pc pos="$(">)</pc></item></list></body></text>
+</TEI>

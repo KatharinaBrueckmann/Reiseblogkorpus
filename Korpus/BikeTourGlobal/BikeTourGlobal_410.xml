@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_410" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Island: Kleiner Gruss zwischendurch</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="52" unit="token"/>
+        <measure quantity="46" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Island: Kleiner Gruss zwischendurch</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/06/12/island-kleiner-gruss-zwischendurch/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-06-12T14:41:52+00:00" type="published"/><date when="2015-05-20T09:37:06+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>gletscher</term><term>hochland</term><term>island</term><term>radtour</term><term>vatnajökull</term><term>wind</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="so" pos="ADV">So</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">ein</w><w lemma="kostenlos" pos="ADJA">kostenloses</w><w lemma="Wlan" pos="NN">Wlan</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="ich" pos="PRF">mich</w><w lemma="und" pos="KON">und</w><w lemma="da" pos="ADV">da</w><w lemma="lassen" pos="VVFIN">lasse</w><w lemma="ich" pos="PPER">ich</w><w lemma="es" pos="PPER">es</w><w lemma="ich" pos="PRF">mir</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="nehmen" pos="VVFIN">nehmen</w><w lemma="mal" pos="ADV">mal</w><w lemma="eine" pos="ART">ein</w><w lemma="paar" pos="PIAT">paar</w><w lemma="Bildgruß" pos="NN">Bildgrüsse</w><w lemma="aus" pos="APPR">aus</w><w lemma="Island" pos="NE">Island</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="posten" pos="VVINF">posten</w><pc pos="$.">.</pc></p><p><w lemma="von" pos="APPR">Von</w><w lemma="mein" pos="PPOSAT">meiner</w><w lemma="Gletschertour" pos="NN">Gletschertour</w><w lemma="an+die" pos="APPRART">am</w><w lemma="Vatnajökull" pos="NE">Vatnajökull</w><w lemma="und" pos="KON">und</w><w lemma="aus" pos="APPR">aus</w><w lemma="die" pos="ART">dem</w><w lemma="Hochland" pos="NN">Hochland</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Weste|Westen" pos="NN">Westen</w><w lemma="die" pos="ART">der</w><w lemma="Insel" pos="NN">Insel</w><pc pos="$.">.</pc></p><p><w lemma="bald" pos="ADV">Bald</w><w lemma="geben" pos="VVFIN">gibt</w><w lemma="es" pos="PPER">es</w><w lemma="mehr" pos="ADV">mehr</w><pc pos="$.">.</pc><w lemma="Wetter" pos="NN">Wetter</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="gut" pos="ADJD">gut</w><pc pos="$,">,</pc><w lemma="es" pos="PPER">es</w><w lemma="regnen" pos="VVFIN">regnet</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="immer" pos="ADV">immer</w><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="machen" pos="VVIMP">mach</w><w lemma="jetzt" pos="ADV">jetzt</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="offline" pos="ADJD">offline</w><pc pos="$.">.</pc><w lemma="😉" pos="NN">😉</w></p></body></text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LieschenRadieschenReist_182" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Lissabon</title>
+        <author>Lynn Benda</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="188" unit="token"/>
+        <measure quantity="141" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Lissabon</title>
+          <author><persName>Lynn Benda</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://lieschenradieschen-reist.com/fotostrecke-lissabon/"/>
+          <ref type="urlBlog" target="https://lieschenradieschen-reist.com/"/>
+          <date when="2015-09-29T09:39:37+02:00" type="published"/><date when="2020-10-23T18:32:17+02:00" type="modified"/>
+          <date when="2022-01-17" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>europa</term><term>fotografie</term><term>lissabon</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><div><head><w lemma="eine" pos="ART">Eine</w><w lemma="Fotostrecke" pos="NN">Fotostrecke</w></head><p><w lemma="Normalerweise" pos="NN">Normalerweise</w><w lemma="gehen" pos="VVFIN">gehen</w><w lemma="ich" pos="PPER">mir</w><w lemma="Reisebericht" pos="NN">Reiseberichte</w><w lemma="leicht" pos="ADJD">leicht</w><w lemma="von" pos="APPR">von</w><w lemma="die" pos="ART">der</w><w lemma="Feder" pos="NN">Feder</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="so" pos="ADV">so</w><w lemma="begeistert" pos="ADJD">begeistert</w><w lemma="von" pos="APPR">von</w><w lemma="mein" pos="PPOSAT">meinem</w><w lemma="Reiseziel" pos="NN">Reiseziel</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">das</w><w lemma="ich" pos="PPER">ich</w><w lemma="gar" pos="ADV">gar</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="lange" pos="ADV">lange</w><w lemma="überlegen" pos="VVINF">überlegen</w><w lemma="müssen" pos="VMFIN">muss</w><pc pos="$,">,</pc><w lemma="was" pos="PWS">was</w><w lemma="ich" pos="PPER">ich</w><w lemma="schreiben" pos="VVINF">schreiben</w><w lemma="wollen" pos="VMFIN">will</w><pc pos="$.">.</pc><w lemma="ganz" pos="ADV">Ganz</w><w lemma="anders" pos="ADV">anders</w><w lemma="bei" pos="APPR">bei</w><w lemma="Lissabon" pos="NE">Lissabon</w><pc pos="$.">!</pc><w lemma="sie" pos="PPER">Ihr</w><w lemma="können" pos="VMFIN">könnt</w><w lemma="ihr" pos="PPER">euch</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="vorstellen" pos="VVINF">vorstellen</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="häufig" pos="ADJD">häufig</w><w lemma="ich" pos="PPER">ich</w><w lemma="beginnen" pos="VVPP">begonnen</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$,">,</pc><w lemma="zu" pos="PTKZU">zu</w><w lemma="schreiben" pos="VVINF">schreiben</w><pc pos="$,">,</pc><w lemma="alle" pos="PIS">alles</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="löschen" pos="VVPP">gelöscht</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$,">,</pc><w lemma="anfangen" pos="VVPP">angefangen</w><w lemma="haben" pos="VAFIN">habe</w><pc pos="$,">,</pc><w lemma="löschen" pos="VVPP">gelöscht</w><w lemma="und" pos="KON">und</w><w lemma="so" pos="ADV">so</w><w lemma="weiter" pos="PTKVZ">weiter</w><pc pos="$.">.</pc></p><p><w lemma="nachdem" pos="KOUS">Nachdem</w><w lemma="ich" pos="PPER">ich</w><w lemma="nun" pos="ADV">nun</w><w lemma="schon" pos="ADV">schon</w><w lemma="fast" pos="ADV">fast</w><w lemma="verzweifeln" pos="VVPP">verzweifelt</w><w lemma="sein" pos="VAFIN">bin</w><pc pos="$,">,</pc><w lemma="weil" pos="KOUS">weil</w><w lemma="ich" pos="PPER">ich</w><w lemma="ihr" pos="PPER">euch</w><w lemma="Lissabon" pos="NE">Lissabon</w><w lemma="so" pos="ADV">so</w><w lemma="gerne" pos="ADV">gerne</w><w lemma="zeigen" pos="VVINF">zeigen</w><w lemma="mögen" pos="VMFIN">möchte</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">ist</w><w lemma="ich" pos="PPER">mir</w><w lemma="die" pos="ART">der</w><w lemma="Gedanke" pos="NN">Gedanke</w><w lemma="kommen" pos="VVPP">gekommen</w><pc pos="$,">,</pc><w lemma="woran" pos="PWAV">woran</w><w lemma="es" pos="PPER">es</w><w lemma="möglicherweise" pos="ADV">möglicherweise</w><w lemma="liegen" pos="VVINF">liegen</w><w lemma="mögen" pos="VMFIN">mag</w><pc pos="$.">:</pc></p><quote><p><emph rend="emphasized"><pc pos="$(">“</pc><w lemma="es" pos="PPER">Es</w><w lemma="werden" pos="VAFIN">wurde</w><w lemma="schon" pos="ADV">schon</w><w lemma="so" pos="ADV">so</w><w lemma="viel" pos="ADV">viel</w><w lemma="über" pos="APPR">über</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Stadt" pos="NN">Stadt</w><w lemma="sagen" pos="VVPP">gesagt</w><pc pos="$,">,</pc><w lemma="die" pos="PDS">dem</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="viele" pos="PIS">viel</w><w lemma="hinzufügen" pos="VVIZU">hinzuzufügen</w><pc pos="$.">.</pc><w lemma="wie" pos="KOUS">Wie</w><w lemma="sollen" pos="VMFIN">soll</w><w lemma="man" pos="PIS">man</w><w lemma="die" pos="ART">das</w><w lemma="Lebensgefühl" pos="NN">Lebensgefühl</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="Freude" pos="NN">Freude</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Sonnenstunde" pos="NN">Sonnenstunden</w><pc pos="$,">,</pc><w lemma="die" pos="ART">das</w><w lemma="gut" pos="ADJA">gute</w><w lemma="Essen" pos="NN">Essen</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="Mensch" pos="NN">Menschen</w><w lemma="beschreiben" pos="VVINF">beschreiben</w><pc pos="$.">?</pc><w lemma="und" pos="KON">Und</w><w lemma="weil" pos="KOUS">weil</w><w lemma="Foto" pos="NN">Fotos</w><w lemma="mehr" pos="ADV">mehr</w><w lemma="sagen" pos="VVINF">sagen</w><w lemma="als" pos="KOKOM">als</w><w lemma="tausend" pos="CARD">tausend</w><w lemma="Wort" pos="NN">Worte</w><pc pos="$,">,</pc><w lemma="mögen" pos="VMFIN">möchte</w><w lemma="ich" pos="PPER">ich</w><w lemma="ihr" pos="PPER">euch</w><w lemma="dies" pos="PDAT">diese</w><w lemma="wunderbar" pos="ADJA">wunderbare</w><w lemma="Stadt" pos="NN">Stadt</w><w lemma="mit" pos="APPR">mit</w><w lemma="viele" pos="PIAT">vielen</w><pc pos="$,">,</pc><w lemma="bunt" pos="ADJA">bunten</w><w lemma="Bild" pos="NN">Bildern</w><w lemma="nähern" pos="VVINF">nähern</w><w lemma="bringen" pos="VVINF">bringen</w><pc pos="$.">.</pc></emph></p></quote><p><w lemma="hier" pos="ADV">Hier</w><w lemma="kommen" pos="VVFIN">kommt</w><w lemma="mein" pos="PPOSAT">meine</w><emph rend="strong"><w lemma="Fotostrecke" pos="NN">Fotostrecke</w><w lemma="Lissabon" pos="NE">Lissabon</w><pc pos="$.">:</pc></emph></p><p><emph rend="strong"><w lemma="Time" pos="NE">Time</w><w lemma="out" pos="NE">Out</w><w lemma="Mercado" pos="NN">Mercado</w><w lemma="da" pos="ADV">da</w><w lemma="Ribeira" pos="NE">Ribeira</w></emph></p><p><emph rend="strong"><w lemma="Flohmarkt" pos="NN">Flohmarkt</w><w lemma="Feira" pos="NE">Feira</w><w lemma="da" pos="ADV">da</w><w lemma="Ladra" pos="NE">Ladra</w></emph></p><p><emph rend="strong"><w lemma="Bar" pos="NN">Bar</w><pc pos="$(">“</pc><w lemma="da" pos="ADV">da</w><w lemma="Velha" pos="NE">Velha</w><w lemma="Senhora" pos="NE">Senhora</w><w lemma="”" pos="NN">”</w></emph></p><p><emph rend="strong"><w lemma="LX" pos="NE">LX</w><w lemma="Factory" pos="NE">Factory</w></emph></p><p><w lemma="Fall" pos="NN">Falls</w><w lemma="du" pos="PPER">du</w><w lemma="du" pos="PPER">dich</w><w lemma="nach" pos="APPR">nach</w><w lemma="eine" pos="ART">einem</w><w lemma="Städtetrip" pos="NN">Städtetrip</w><w lemma="in" pos="APPR">in</w><w lemma="Lissabon" pos="NE">Lissabon</w><w lemma="nach" pos="APPR">nach</w><w lemma="Natur" pos="NN">Natur</w><w lemma="sehnst" pos="VVFIN">sehnst</w><pc pos="$,">,</pc><w lemma="haben" pos="VAFIN">hat</w><w lemma="Daniel" pos="NE">Daniel</w><w lemma="von+die" pos="APPRART">vom</w><w lemma="Fernwehblog" pos="NN">Fernwehblog</w><w lemma="eine" pos="ART">einen</w><w lemma="ganz" pos="ADV">ganz</w><w lemma="heiß" pos="ADJA">heißen</w><w lemma="Tip" pos="NN">Tipp</w><pc pos="$.">.</pc><w lemma="er" pos="PPER">Er</w><w lemma="nehmen" pos="VVFIN">nimmt</w><w lemma="wir" pos="PPER">uns</w><w lemma="mit" pos="APPR">mit</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Cabo" pos="NN">Cabo</w><w lemma="da" pos="ADV">da</w><w lemma="Roca" pos="NE">Roca</w><pc pos="$,">,</pc><w lemma="die" pos="ART">dem</w><w lemma="westlich" pos="ADJA">westlichsten</w><w lemma="Punkt" pos="NN">Punkt</w><w lemma="von" pos="APPR">von</w><w lemma="Portugal" pos="NE">Portugal</w><pc pos="$.">.</pc><w lemma="hier" pos="ADV">Hier</w><pc pos="$.">...</pc><w lemma="gehts" pos="NN">gehts</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Beitrag" pos="NN">Beitrag</w><pc pos="$.">.</pc></p></div></body></text>
+</TEI>

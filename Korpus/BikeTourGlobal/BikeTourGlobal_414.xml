@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_414" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Landpartie – eine kleine Bildreise</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="124" unit="token"/>
+        <measure quantity="100" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Landpartie – eine kleine Bildreise</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/05/20/landpartie-eine-kleine-bildreise/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-05-20T18:27:47+00:00" type="published"/><date when="2015-05-20T09:36:12+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>ausflug</term><term>hamburg</term><term>museumsbauernhof</term><term>pfingstwochenende</term><term>spaziergang</term><term>wennerstorf</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="so" pos="ADV">So</w><pc pos="$,">,</pc><w lemma="die" pos="ART">das</w><w lemma="Wochenende" pos="NN">Wochenende</w><w lemma="nutzen" pos="VVPP">genutzt</w><w lemma="und" pos="KON">und</w><w lemma="mal" pos="ADV">mal</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="an" pos="APPR">an</w><w lemma="eine" pos="ART">einem</w><w lemma="mein" pos="PPOSAT">meiner</w><w lemma="Lieblingsorte" pos="NN">Lieblingsorte</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Region" pos="NN">Region</w><w lemma="Hamburg" pos="NE">Hamburg</w><w lemma="sein" pos="VAPP">gewesen</w><pc pos="$.">:</pc><w lemma="die" pos="ART">der</w><w lemma="Museumsbauernhof" pos="NN">Museumsbauernhof</w><w lemma="Wennerstorf" pos="NE">Wennerstorf</w><pc pos="$.">.</pc></p><p><w lemma="nur" pos="ADV">Nur</w><w lemma="wenige" pos="PIAT">wenige</w><w lemma="Kilometer" pos="NN">Kilometer</w><w lemma="südlich" pos="APPR">südlich</w><w lemma="die" pos="ART">der</w><w lemma="Hamburger" pos="ADJA">Hamburger</w><w lemma="Berg" pos="NN">Berge</w><w lemma="liegen" pos="VVFIN">liegt</w><w lemma="abseits" pos="ADV">abseits</w><w lemma="die" pos="ART">der</w><w lemma="Autobahn" pos="NN">Autobahn</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="ungemein" pos="ADJD">ungemein</w><w lemma="sehenswert" pos="ADJA">sehenswerte</w><w lemma="und" pos="KON">und</w><w lemma="ruhig" pos="ADJA">ruhige</w><w lemma="Bauernhof" pos="NN">Bauernhof</w><pc pos="$.">.</pc><w lemma="innen" pos="ADV">Innen</w><w lemma="noch" pos="ADV">noch</w><w lemma="einrichten" pos="VVPP">eingerichtet</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="30er" pos="NN">30ern</w><pc pos="$,">,</pc><w lemma="bieten" pos="VVFIN">bietet</w><w lemma="die" pos="ART">der</w><w lemma="Hof" pos="NN">Hof</w><w lemma="alle" pos="PIS">alles</w><w lemma="was" pos="PRELS">was</w><w lemma="man" pos="PIS">man</w><w lemma="so" pos="ADV">so</w><w lemma="brauchen" pos="VVFIN">braucht</w><pc pos="$.">:</pc><w lemma="Tier" pos="NN">Tiere</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">ein</w><w lemma="Cafe" pos="NE">Cafe</w><pc pos="$,">,</pc><w lemma="eine" pos="ART">einen</w><w lemma="groß" pos="ADJA">großen</w><w lemma="Stall" pos="NN">Stall</w><w lemma="und" pos="KON">und</w><w lemma="alt" pos="ADJA">alte</w><w lemma="Traktor" pos="NN">Traktoren</w><pc pos="$.">.</pc></p><p><w lemma="ob" pos="KOUS">Ob</w><w lemma="zu" pos="APPR">zu</w><w lemma="offiziell" pos="ADJA">offiziellen</w><w lemma="Fest" pos="NN">Festen</w><pc pos="$,">,</pc><w lemma="wie" pos="KOUS">wie</w><w lemma="die" pos="ART">dem</w><w lemma="jetzig" pos="ADJA">jetzigen</w><w lemma="Pfingstfest" pos="NN">Pfingstfest</w><pc pos="$,">,</pc><w lemma="oder" pos="KON">oder</w><w lemma="ohne" pos="APPR">ohne</w><w lemma="Veranstaltung" pos="NN">Veranstaltung</w><w lemma="und" pos="KON">und</w><w lemma="ganz" pos="ADV">ganz</w><w lemma="einsam" pos="ADJD">einsam</w><w lemma="und" pos="KON">und</w><w lemma="still" pos="ADJD">still</w><pc pos="$.">:</pc><w lemma="eine" pos="ART">eine</w><w lemma="Reise" pos="NN">Reise</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="es" pos="PPER">es</w><w lemma="jederzeit" pos="ADV">jederzeit</w><w lemma="wert" pos="ADJD">wert</w><pc pos="$,">,</pc><w lemma="zumal" pos="KOUS">zumal</w><w lemma="auch" pos="ADV">auch</w><w lemma="die" pos="ART">die</w><w lemma="Umgebung" pos="NN">Umgebung</w><w lemma="sehr" pos="ADV">sehr</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Spazieren" pos="NN">Spazieren</w><w lemma="einlädt.Vor" pos="VVFIN">einlädt.Vor</w><w lemma="alle" pos="PIS">allem</w><w lemma="die" pos="ART">das</w><w lemma="Cafe" pos="NE">Cafe</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">der</w><w lemma="Laden" pos="NN">Laden</w><w lemma="sein" pos="VAFIN">sind</w><pc pos="$,">,</pc><w lemma="selbst" pos="ADV">selbst</w><w lemma="wenn" pos="KOUS">wenn</w><w lemma="man" pos="PIS">man</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">den</w><w lemma="ganz" pos="ADJA">ganzen</w><w lemma="Biokram" pos="NN">Biokram</w><w lemma="stehen" pos="VVFIN">steht</w><w lemma="wie" pos="KOKOM">wie</w><w lemma="ich" pos="PPER">ich</w><pc pos="$,">,</pc><w lemma="sehr" pos="ADV">sehr</w><w lemma="lecker" pos="ADJD">lecker</w><w lemma="und" pos="KON">und</w><w lemma="empfehlenswert" pos="ADJD">empfehlenswert</w><pc pos="$.">!</pc></p><p><w lemma="um" pos="APPR">Um</w><w lemma="ihr" pos="PPER">Euch</w><w lemma="eine" pos="ART">ein</w><w lemma="bisschen" pos="ADV">bisschen</w><w lemma="auf" pos="APPR">auf</w><w lemma="die" pos="ART">den</w><w lemma="Geschmack" pos="NN">Geschmack</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="bringen" pos="VVINF">bringen</w><w lemma="hier" pos="ADV">hier</w><w lemma="eine" pos="ART">ein</w><w lemma="Bilderrundgang" pos="NN">Bilderrundgang</w><pc pos="$.">!</pc></p></body></text>
+</TEI>

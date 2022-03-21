@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_076" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: „Rad auf Achse“ – Meine Tour Brandenburg mit dem RBB jetzt in der Mediathek</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="102" unit="token"/>
+        <measure quantity="78" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>„Rad auf Achse“ – Meine Tour Brandenburg mit dem RBB jetzt in der Mediathek</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2020/10/21/rad-auf-achse-rbb/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2020-10-21T16:23:03+00:00" type="published"/><date when="2020-10-19T11:17:17+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>bikepacking</term><term>biketouring</term><term>brandenburg</term><term>fahrrad</term><term>fahrradfahren</term><term>rad auf achse</term><term>rbb dokumentation radtour</term><term>tour brandenburg</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><div><head><w lemma="„Immer" pos="NN">„Immer</w><pc pos="$,">,</pc><w lemma="wenn" pos="KOUS">wenn</w><w lemma="ich" pos="PPER">ich</w><w lemma="ergreifen" pos="VVPP">ergriffen</w><w lemma="sein" pos="VAFIN">bin</w><pc pos="$,">,</pc><w lemma="machen" pos="VVFIN">mache</w><w lemma="ich" pos="PPER">ich</w><w lemma="eine" pos="ART">ein</w><w lemma="Foto" pos="NN">Foto</w><pc pos="$(">“</pc></head><p><w lemma="in+die" pos="APPRART">Im</w><w lemma="Sommer" pos="NN">Sommer</w><w lemma="sein" pos="VAFIN">war</w><w lemma="ich" pos="PPER">ich</w><w lemma="mit" pos="APPR">mit</w><w lemma="eine" pos="ART">einem</w><w lemma="Film-Team" pos="NN">Film-Team</w><w lemma="unterwegs" pos="ADV">unterwegs</w><pc pos="$,">,</pc><w lemma="um" pos="KOUI">um</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Rahmen" pos="NN">Rahmen</w><w lemma="die" pos="ART">der</w><w lemma="RBB-Doku" pos="NN">RBB-Doku</w><w lemma="„Rad" pos="NN">„Rad</w><w lemma="auf" pos="APPR">auf</w><w lemma="Achse" pos="NN">Achse</w><pc pos="$(">“</pc><w lemma="eine" pos="ART">einen</w><w lemma="Teil" pos="NN">Teil</w><w lemma="die" pos="ART">der</w><w lemma="Tour" pos="NN">Tour</w><w lemma="Brandenburg" pos="NE">Brandenburg</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="fahren" pos="VVINF">fahren</w><pc pos="$.">.</pc></p><p><w lemma="darüber" pos="PAV">Darüber</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="auch" pos="ADV">auch</w><w lemma="ausführlich" pos="ADJD">ausführlich</w><w lemma="berichten" pos="VVPP">berichtet</w><pc pos="$.">.</pc><w lemma="wer" pos="PWS">Wer</w><w lemma="mögen" pos="VMFIN">mag</w><pc pos="$,">,</pc><w lemma="die" pos="PDS">der</w><w lemma="finden" pos="VVFIN">findet</w><w lemma="die" pos="ART">den</w><w lemma="Beitrag" pos="NN">Beitrag</w><w lemma="hier" pos="ADV">hier</w><pc pos="$.">:</pc><w lemma="Fontane" pos="NE">Fontane</w><pc pos="$,">,</pc><w lemma="Draisinen" pos="NN">Draisinen</w><pc pos="$,">,</pc><w lemma="Zisterzienser" pos="NN">Zisterzienser</w><w lemma="&amp;" pos="KON">&amp;</w><w lemma="die" pos="ART">Die</w><w lemma="Alte" pos="NN">Alte</w><w lemma="Oder" pos="NE">Oder</w><pc pos="$.">:</pc><w lemma="eine" pos="ART">Eine</w><w lemma="Kleine" pos="NN">Kleine</w><w lemma="Tour" pos="NN">Tour</w><w lemma="durch" pos="APPR">durch</w><w lemma="Brandenburg" pos="NE">Brandenburg</w></p><p><w lemma="nun" pos="ADV">Nun</w><w lemma="werden" pos="VAFIN">wurde</w><w lemma="die" pos="ART">der</w><w lemma="Beitrag" pos="NN">Beitrag</w><w lemma="senden" pos="VVPP">gesendet</w><w lemma="und" pos="KON">und</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="für" pos="APPR">für</w><w lemma="eine" pos="ART">ein</w><w lemma="paar" pos="PIAT">paar</w><w lemma="Monat" pos="NN">Monate</w><w lemma="auch" pos="ADV">auch</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="RBB" pos="NE">RBB</w><w lemma="Mediathek" pos="NN">Mediathek</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="sehen" pos="VVINF">sehen</w><pc pos="$.">.</pc></p><p><w lemma="wer" pos="PWS">Wer</w><w lemma="also" pos="ADV">also</w><w lemma="Lust" pos="NN">Lust</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="mit" pos="APPR">mit</w><w lemma="ich" pos="PPER">mir</w><w lemma="von" pos="APPR">von</w><w lemma="Rheinsberg" pos="NE">Rheinsberg</w><w lemma="nach" pos="APPR">nach</w><w lemma="Oderberg" pos="NE">Oderberg</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="radeln" pos="VVINF">radeln</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">der</w><w lemma="können" pos="VMFIN">kann</w><w lemma="die" pos="PDS">das</w><w lemma="hier" pos="ADV">hier</w><w lemma="gerne" pos="ADV">gerne</w><w lemma="tun" pos="VVINF">tun</w><pc pos="$.">:</pc></p><p><w lemma="alle" pos="PIAT">Alle</w><w lemma="Folge" pos="NN">Folgen</w><w lemma="von" pos="APPR">von</w><w lemma="„Rad" pos="NN">„Rad</w><w lemma="auf" pos="APPR">auf</w><w lemma="Achse" pos="NN">Achse</w><pc pos="$(">“</pc><w lemma="finden" pos="VVFIN">findet</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="hier" pos="ADV">hier</w><pc pos="$.">.</pc></p></div></body></text>
+</TEI>

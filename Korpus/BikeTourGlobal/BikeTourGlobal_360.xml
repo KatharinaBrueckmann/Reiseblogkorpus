@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_360" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Hurra – das sind die Gewinner einer Postkarte aus Ecuador</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="94" unit="token"/>
+        <measure quantity="80" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Hurra – das sind die Gewinner einer Postkarte aus Ecuador</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2014/03/23/hurra-das-sind-die-gewinner-einer-postkarte-aus-ecuador/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2014-03-23T20:40:07+00:00" type="published"/><date when="2014-11-01T22:21:10+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>anden</term><term>cotopaxi</term><term>dschungel</term><term>ecuador</term><term>gulliver expeditions</term><term>hike&amp;bike</term><term>postkarte</term><term>quito</term><term>rundreise</term><term>travel</term><term>volcano</term><term>vulkane</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="lieb" pos="ADJA">Liebe</w><w lemma="Leute" pos="NN">Leute</w><pc pos="$,">,</pc><w lemma="erstmal" pos="ADV">erstmal</w><w lemma="viele" pos="PIAT">vielen</w><pc pos="$,">,</pc><w lemma="viele" pos="PIAT">vielen</w><w lemma="Dank" pos="NN">Dank</w><w lemma="an" pos="APPR">an</w><w lemma="alle" pos="PIS">alle</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">die</w><w lemma="mitmachen" pos="VVPP">mitgemacht</w><w lemma="haben" pos="VAFIN">haben</w><pc pos="$.">.</pc></p><p><w lemma="aus" pos="APPR">Aus</w><w lemma="insgesamt" pos="ADV">insgesamt</w><w lemma="@card@" pos="CARD">17</w><w lemma="Kommentar" pos="NN">Kommentaren</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="in" pos="APPR">in</w><w lemma="streng" pos="ADJD">streng</w><w lemma="geheim" pos="ADJA">geheimer</w><w lemma="Auswahl" pos="NN">Auswahl</w><w lemma="die" pos="ART">die</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="ziehen" pos="VVPP">gezogen</w><pc pos="$.">.</pc></p><p><w lemma="aber" pos="KON">Aber</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="nur" pos="ADV">nur</w><w lemma="@card@" pos="CARD">5</w><pc pos="$,">,</pc><w lemma="wie" pos="KOKOM">wie</w><w lemma="ankündigen" pos="VVPP">angekündigt</w><pc pos="$,">,</pc><w lemma="sondern" pos="KON">sondern</w><w lemma="@card@" pos="CARD">10</w><pc pos="$,">,</pc><w lemma="weil" pos="KOUS">weil</w><w lemma="ich" pos="PPER">ich</w><w lemma="es" pos="PPER">es</w><w lemma="toll" pos="ADJD">toll</w><w lemma="finden" pos="VVFIN">finde</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="sich" pos="PRF">sich</w><w lemma="doch" pos="ADV">doch</w><w lemma="so" pos="ADV">so</w><w lemma="viele" pos="PIS">viele</w><w lemma="bewerben" pos="VVPP">beworben</w><w lemma="haben" pos="VAINF">haben</w><w lemma="😉" pos="NN">😉</w></p><p><w lemma="aber" pos="KON">Aber</w><w lemma="schauen" pos="VVFIN">schaut</w><w lemma="selbst" pos="ADV">selbst</w><pc pos="$.">:</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="gratulieren" pos="VVFIN">gratuliere</w><pc pos="$.">!</pc><w lemma="hier" pos="ADV">Hier</w><w lemma="noch" pos="ADV">noch</w><w lemma="mal" pos="ADV">mal</w><w lemma="die" pos="ART">die</w><w lemma="Gewinner" pos="NN">Gewinner</w><w lemma="„schriftlich" pos="ADJD">„schriftlich</w><pc pos="$(">“</pc><pc pos="$.">:</pc></p><p><w lemma="und" pos="KON">Und</w><pc pos="$,">,</pc><w lemma="lieb" pos="ADJA">liebe</w><w lemma="Gewinner" pos="NN">Gewinner</w><pc pos="$,">,</pc><w lemma="wenn" pos="KOUS">wenn</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="die" pos="PDS">das</w><w lemma="lesen" pos="VVFIN">lest</w><pc pos="$,">,</pc><w lemma="dann" pos="ADV">dann</w><w lemma="schicken" pos="VVFIN">schickt</w><w lemma="ich" pos="PPER">mir</w><w lemma="doch" pos="ADV">doch</w><w lemma="bitte" pos="ADV">bitte</w><w lemma="schnell" pos="ADJD">schnell</w><w lemma="eine" pos="ART">eine</w><w lemma="Mail" pos="NE">Mail</w><w lemma="mit" pos="APPR">mit</w><w lemma="euer" pos="PPOSAT">eurer</w><w lemma="Adresse" pos="NN">Adresse</w><w lemma="an" pos="APPR">an</w><w lemma="Martin" pos="NE">martin</w><pc pos="$(">(</pc><w lemma="ätt" pos="NE">ätt</w><pc pos="$(">)</pc><w lemma="biketour-global.de" pos="ADJA">biketour-global.de</w><w lemma="und" pos="KON">und</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">dem</w><w lemma="Betreff" pos="NN">Betreff</w><w lemma="„Postkarte" pos="NN">„Postkarte</w><w lemma="aus" pos="APPR">aus</w><w lemma="Ecuador" pos="NE">Ecuador</w><pc pos="$(">“</pc><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="versuchen" pos="VVFIN">versuche</w><w lemma="parallel" pos="ADJD">parallel</w><w lemma="Kontakt" pos="NN">Kontakt</w><w lemma="mit" pos="APPR">mit</w><w lemma="ihr" pos="PPER">euch</w><w lemma="aufnehmen" pos="VVIZU">aufzunehmen</w><pc pos="$.">.</pc></p><p><w lemma="viele" pos="PIAT">Vielen</w><w lemma="Dank" pos="NN">Dank</w><pc pos="$.">!</pc></p></body></text>
+</TEI>

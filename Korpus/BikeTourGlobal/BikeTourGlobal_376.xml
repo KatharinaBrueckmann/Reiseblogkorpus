@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_376" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Ein schöner Jahresabschluss mit Reisedepeschen.de</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="170" unit="token"/>
+        <measure quantity="130" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Ein schöner Jahresabschluss mit Reisedepeschen.de</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/12/31/ein-schoner-jahresabschluss-mit-reisedepeschen-de/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-12-31T10:11:48+00:00" type="published"/><date when="2015-05-20T09:21:28+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>biketour</term><term>frisör</term><term>guten rutsch</term><term>jahresabschluss</term><term>mali</term><term>radtouren</term><term>reisebericht</term><term>reisedepeschen</term><term>timbuktu</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="so" pos="ADV">So</w><pc pos="$,">,</pc><w lemma="an+die" pos="APPRART">am</w><w lemma="letzt" pos="ADJA">letzten</w><w lemma="Tag" pos="NN">Tag</w><w lemma="die" pos="ART">des</w><w lemma="Jahr" pos="NN">Jahres</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="nun" pos="ADV">nun</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="zweit" pos="ADJA">zweiter</w><w lemma="Artikel" pos="NN">Artikel</w><w lemma="bei" pos="APPR">bei</w><w lemma="Reisedepeschen.de" pos="NN">Reisedepeschen.de</w><w lemma="erscheinen" pos="VVPP">erschienen</w><pc pos="$.">.</pc></p><p><w lemma="diesmal" pos="ADV">Diesmal</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="ich" pos="PPER">ich</w><w lemma="als" pos="KOKOM">als</w><w lemma="Frisör" pos="NN">Frisör</w><w lemma="in" pos="APPR">in</w><w lemma="Mali" pos="NE">Mali</w><w lemma="unterwegs" pos="ADV">unterwegs</w><w lemma="und" pos="KON">und</w><w lemma="können" pos="VMFIN">kann</w><w lemma="ihr" pos="PPER">Euch</w><w lemma="dies" pos="PDAT">diese</w><w lemma="Story" pos="NN">Story</w><w lemma="nur" pos="ADV">nur</w><w lemma="empfehlen" pos="VVFIN">empfehlen</w><w lemma="😉" pos="NN">😉</w></p><p><w lemma="bei+die" pos="APPRART">Beim</w><w lemma="letzt" pos="ADJA">letzten</w><w lemma="Mal" pos="NN">Mal</w><w lemma="gehen" pos="VVFIN">ging</w><w lemma="es" pos="PPER">es</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">die</w><w lemma="Ukraine" pos="NE">Ukraine</w><pc pos="$,">,</pc><w lemma="wo" pos="PWAV">wo</w><w lemma="ich" pos="PPER">ich</w><w lemma="von" pos="APPR">von</w><w lemma="mein" pos="PPOSAT">meinen</w><w lemma="Erlebnis" pos="NN">Erlebnissen</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">dem</w><w lemma="Wodka" pos="NN">Wodka</w><w lemma="erzählen" pos="VVFIN">erzählte</w><pc pos="$.">.</pc></p><p><w lemma="auch" pos="ADV">Auch</w><w lemma="sonst" pos="ADV">sonst</w><w lemma="haben" pos="VAFIN">hat</w><w lemma="die" pos="ART">das</w><w lemma="Jahr" pos="NN">Jahr</w><w lemma="die" pos="PDS">die</w><w lemma="ein" pos="PTKVZ">ein</w><w lemma="oder" pos="KON">oder</w><w lemma="andere" pos="PIS">andere</w><w lemma="schön" pos="ADJA">schöne</w><w lemma="Story" pos="NN">Story</w><w lemma="hervorbringen" pos="VVPP">hervorgebracht</w><pc pos="$.">.</pc></p><p><w lemma="wenn" pos="KOUS">Wenn</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="also" pos="ADV">also</w><w lemma="noch" pos="ADV">noch</w><w lemma="etwas" pos="PIAT">etwas</w><w lemma="Zeit" pos="NN">Zeit</w><w lemma="haben" pos="VAFIN">habt</w><w lemma="bis" pos="APPR">bis</w><w lemma="zu+die" pos="APPRART">zur</w><w lemma="Silvesterparty" pos="NN">Silvesterparty</w><w lemma="und" pos="KON">und</w><w lemma="Lust" pos="NN">Lust</w><w lemma="haben" pos="VAFIN">habt</w><pc pos="$,">,</pc><w lemma="noch" pos="ADV">noch</w><w lemma="etwas" pos="ADV">etwas</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Weltgeschichte" pos="NN">Weltgeschichte</w><w lemma="herumzulesen" pos="VVFIN">herumzulesen</w><pc pos="$,">,</pc><w lemma="dann" pos="ADV">dann</w><w lemma="schauen" pos="VVFIN">schaut</w><w lemma="auch" pos="ADV">auch</w><w lemma="mal" pos="ADV">mal</w><w lemma="hier" pos="ADV">hier</w><w lemma="rein" pos="PTKVZ">rein</w><pc pos="$.">:</pc></p><list style="unordered"><item><w lemma="Wüstenfieber" pos="NN">Wüstenfieber</w><pc pos="$(">–</pc><w lemma="mit" pos="APPR">Mit</w><w lemma="die" pos="ART">dem</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="nach" pos="APPR">nach</w><w lemma="Jerusalem" pos="NE">Jerusalem</w></item><item><w lemma="Martin" pos="NE">Martin</w><w lemma="on" pos="FM">on</w><w lemma="the" pos="FM">the</w><w lemma="rocks" pos="NE">rocks</w><pc pos="$(">–</pc><w lemma="auf" pos="APPR">Auf</w><w lemma="Gletschertour" pos="NN">Gletschertour</w><w lemma="an+die" pos="APPRART">am</w><w lemma="Vatnajökull" pos="NE">Vatnajökull</w></item><item><w lemma="Martin" pos="NE">Martin</w><w lemma="in+die" pos="APPRART">im</w><w lemma="Dienst" pos="NN">Dienste</w><w lemma="die" pos="ART">der</w><w lemma="Republik" pos="NN">Republik</w><pc pos="$(">–</pc><w lemma="als" pos="KOKOM">Als</w><w lemma="Praktikant" pos="NN">Praktikant</w><w lemma="in+die" pos="APPRART">im</w><w lemma="diplomatisch" pos="ADJA">diplomatischen</w><w lemma="Dienst" pos="NN">Dienst</w></item><item><w lemma="wenn" pos="KOUS">Wenn</w><w lemma="die" pos="ART">die</w><w lemma="Sonne" pos="NN">Sonne</w><w lemma="untergehen" pos="VVFIN">untergeht</w><pc pos="$(">–</pc><w lemma="@card@" pos="CARD">11</w><w lemma="Bild" pos="NN">Bilder</w><pc pos="$,">,</pc><w lemma="@card@" pos="CARD">11</w><w lemma="Geschichte" pos="NN">Geschichten</w></item><item><w lemma="Sturmtag" pos="NN">Sturmtage</w><w lemma="und" pos="KON">und</w><w lemma="Regenschlacht|schlachten" pos="NN">Regenschlachten</w><pc pos="$(">–</pc><w lemma="Radfahren" pos="NN">Radfahren</w><w lemma="auf" pos="APPR">auf</w><w lemma="Island" pos="NE">Island</w></item><item><w lemma="in+die" pos="APPRART">Im</w><w lemma="Reich" pos="NN">Reich</w><w lemma="die" pos="ART">der</w><w lemma="Mücke" pos="NN">Mücken</w><pc pos="$(">–</pc><w lemma="mit" pos="APPR">Mit</w><w lemma="die" pos="ART">dem</w><w lemma="Rad" pos="NN">Rad</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Nordkapp" pos="NN">Nordkapp</w></item></list><p><w lemma="und" pos="KON">Und</w><w lemma="hier" pos="ADV">hier</w><w lemma="noch" pos="ADV">noch</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="aktuell" pos="ADJA">aktuelles</w><w lemma="Lieblingsfoto" pos="NN">Lieblingsfoto</w><w lemma="aus" pos="APPR">aus</w><w lemma="dies" pos="PDAT">diesem</w><w lemma="Jahr" pos="NN">Jahr</w><pc pos="$.">:</pc><w lemma="es" pos="PPER">Es</w><w lemma="entstehen" pos="VVFIN">entstand</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="Gletscherlagune" pos="NN">Gletscherlagune</w><w lemma="an+die" pos="APPRART">am</w><w lemma="Vatnajökull" pos="NN">Vatnajökull</w><w lemma="auf" pos="APPR">auf</w><w lemma="Island" pos="NE">Island</w><pc pos="$.">.</pc><w lemma="ich" pos="PPER">Ich</w><w lemma="können" pos="VMFIN">kann</w><w lemma="ich" pos="PRF">mich</w><w lemma="gar" pos="ADV">gar</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="satt" pos="ADJD">satt</w><w lemma="sehen" pos="VVINF">sehen</w><pc pos="$.">...</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="wünschen" pos="VVFIN">wünsche</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="eine" pos="ART">einen</w><w lemma="gut" pos="ADJA">guten</w><w lemma="Rutsch" pos="NN">Rutsch</w><w lemma="und" pos="KON">und</w><w lemma="eine" pos="ART">ein</w><w lemma="gut" pos="ADJA">gutes</w><w lemma="neu" pos="ADJA">neues</w><w lemma="Jahr" pos="NN">Jahr</w><pc pos="$.">.</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="ich" pos="PRF">mir</w><w lemma="auch" pos="ADV">auch</w><pc pos="$.">.</pc></p></body></text>
+</TEI>

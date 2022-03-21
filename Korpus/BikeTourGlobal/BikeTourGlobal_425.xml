@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_425" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Auf neue Tour: 65° 0’0″N,18° 0’0″W</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="91" unit="token"/>
+        <measure quantity="74" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Auf neue Tour: 65° 0’0″N,18° 0’0″W</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2012/12/30/auf-neue-tour-65-00″n18-00″w/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2012-12-30T11:56:15+00:00" type="published"/><date when="2015-05-20T09:42:45+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>island</term><term>norden</term><term>radtour</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="in+die" pos="APPRART">Im</w><w lemma="Juni" pos="NN">Juni</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="es" pos="PPER">es</w><w lemma="soweit" pos="ADV">soweit</w><pc pos="$.">:</pc><w lemma="diesmal" pos="ADV">diesmal</w><w lemma="gehen" pos="VVFIN">geht</w><w lemma="es" pos="PPER">es</w><w lemma="hoch" pos="ADJD">hoch</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">den</w><w lemma="Norden" pos="NN">Norden</w><w lemma="nach" pos="APPR">nach</w><w lemma="Island" pos="NE">Island</w><pc pos="$.">.</pc></p><p><w lemma="ich" pos="PPER">Ich</w><w lemma="werden" pos="VAFIN">werde</w><w lemma="die" pos="ART">die</w><w lemma="Insel" pos="NN">Insel</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="ART">dem</w><w lemma="Rad" pos="NN">Rad</w><w lemma="und" pos="KON">und</w><w lemma="etwas" pos="PIAT">etwas</w><w lemma="Bus" pos="NN">Bus</w><w lemma="umrunden" pos="VVINF">umrunden</w><pc pos="$,">,</pc><w lemma="dabei" pos="PAV">dabei</w><w lemma="die" pos="ART">das</w><w lemma="Hochland" pos="NN">Hochland</w><w lemma="durchqueren" pos="VVINF">durchqueren</w><w lemma="und" pos="KON">und</w><w lemma="ich" pos="PPER">mir</w><w lemma="natürlich" pos="ADV">natürlich</w><w lemma="die" pos="ART">die</w><w lemma="wichtig" pos="ADJA">wichtigsten</w><w lemma="Sehenswürdigkeit" pos="NN">Sehenswürdigkeiten</w><w lemma="anschauen" pos="VVINF">anschauen</w><pc pos="$.">.</pc></p><p><w lemma="Flug" pos="NN">Flug</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="buchen" pos="VVPP">gebucht</w><pc pos="$,">,</pc><w lemma="die" pos="ART">das</w><w lemma="Fahrrad" pos="NN">Fahrrad</w><w lemma="werden" pos="VAFIN">wird</w><w lemma="derzeit" pos="ADV">derzeit</w><w lemma="erneuern" pos="VVPP">erneuert</w><w lemma="und" pos="KON">und</w><w lemma="die" pos="ART">die</w><w lemma="Ausrüstung" pos="NN">Ausrüstung</w><w lemma="aktualisieren" pos="VVPP">aktualisiert</w><pc pos="$.">.</pc></p><p><w lemma="insgesamt" pos="ADV">Insgesamt</w><w lemma="werden" pos="VAFIN">werde</w><w lemma="ich" pos="PPER">ich</w><w lemma="um" pos="APPR">um</w><w lemma="die" pos="ART">die</w><w lemma="@card@" pos="ADJA">1.200</w><w lemma="km" pos="NN">km</w><w lemma="fahren" pos="VVINF">fahren</w><pc pos="$.">.</pc><w lemma="knapp" pos="ADJD">Knapp</w><w lemma="@card@" pos="CARD">15</w><w lemma="Tag" pos="NN">Tage</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="Zeit" pos="NN">Zeit</w><pc pos="$.">.</pc><w lemma="Island" pos="NE">Island</w><w lemma="gelten" pos="VVFIN">gilt</w><w lemma="als" pos="KOKOM">als</w><w lemma="wettertechnisch" pos="ADJD">wettertechnisch</w><w lemma="unberechenbar" pos="ADJD">unberechenbar</w><pc pos="$(">–</pc><w lemma="daher" pos="PAV">daher</w><w lemma="planen" pos="VVFIN">plane</w><w lemma="ich" pos="PPER">ich</w><w lemma="sehr" pos="ADV">sehr</w><w lemma="konservativ" pos="ADJD">konservativ</w><w lemma="erst" pos="ADV">erst</w><w lemma="mal" pos="ADV">mal</w><w lemma="mit" pos="APPR">mit</w><w lemma="@card@" pos="CARD">80</w><w lemma="km" pos="NN">Km</w><w lemma="pro" pos="APPR">pro</w><w lemma="Tag" pos="NN">Tag</w><pc pos="$.">.</pc></p><p><w lemma="eine" pos="ART">Eine</w><w lemma="Packliste" pos="NN">Packliste</w><w lemma="und" pos="KON">und</w><w lemma="Update" pos="NN">Updates</w><w lemma="zu+die" pos="APPRART">zur</w><w lemma="Ausrüstung" pos="NN">Ausrüstung</w><w lemma="und" pos="KON">und</w><w lemma="Reisevorbereitung" pos="NN">Reisevorbereitung</w><w lemma="posten" pos="VVFIN">poste</w><w lemma="ich" pos="PPER">ich</w><w lemma="dann" pos="ADV">dann</w><w lemma="hier" pos="ADV">hier</w><pc pos="$.">.</pc></p></body></text>
+</TEI>

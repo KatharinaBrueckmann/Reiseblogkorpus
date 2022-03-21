@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_407" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Martin im Radio-Interview: WDR Funkhaus Europa zu Extremreisen</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="40" unit="token"/>
+        <measure quantity="38" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Martin im Radio-Interview: WDR Funkhaus Europa zu Extremreisen</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/06/24/martin-im-radio-interview-wdr-funkhaus-europa-zu-extremreisen/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-06-24T06:45:35+00:00" type="published"/><date when="2015-05-20T09:38:54+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>afrika</term><term>biketourglobal</term><term>extremreisen</term><term>frisör</term><term>funkhaus europa</term><term>mali</term><term>radiointerview</term><term>wdr</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="überraschenderweise" pos="ADV">Überraschenderweise</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="eine" pos="ART">eine</w><w lemma="Interviewanfrage" pos="NN">Interviewanfrage</w><w lemma="die" pos="ART">des</w><w lemma="WDR" pos="NE">WDR</w><pc pos="$,">,</pc><w lemma="Funkhaus" pos="NN">Funkhaus</w><w lemma="Europa" pos="NE">Europa</w><w lemma="bekommen" pos="VVINF">bekommen</w><pc pos="$.">.</pc><w lemma="dabei" pos="PAV">Dabei</w><w lemma="gehen" pos="VVFIN">ging</w><w lemma="es" pos="PPER">es</w><w lemma="um" pos="APPR">um</w><w lemma="Extremreise|reisen" pos="NN">Extremreisen</w><pc pos="$.">.</pc></p><p><w lemma="was" pos="PWS">Was</w><w lemma="daraus" pos="PAV">daraus</w><w lemma="werden" pos="VAPP">geworden</w><w lemma="sein" pos="VAFIN">ist</w><pc pos="$,">,</pc><w lemma="können" pos="VMFIN">könnt</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="hier" pos="ADV">hier</w><w lemma="hören" pos="VVFIN">hören</w><w lemma="😉" pos="ADJD">😉</w></p><p><w lemma="hier" pos="ADV">Hier</w><w lemma="noch" pos="ADV">noch</w><w lemma="eine" pos="ART">ein</w><w lemma="Bild" pos="NN">Bild</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Beitrag" pos="NN">Beitrag</w><pc pos="$,">,</pc><w lemma="als" pos="KOUS">als</w><w lemma="ich" pos="PPER">ich</w><w lemma="in" pos="APPR">in</w><w lemma="die" pos="ART">der</w><w lemma="malischen" pos="ADJA">malischen</w><w lemma="Wüste" pos="NN">Wüste</w><w lemma="als" pos="KOKOM">als</w><w lemma="Frisör" pos="NN">Frisör</w><w lemma="unterwegs" pos="ADV">unterwegs</w><w lemma="sein" pos="VAFIN">war</w><pc pos="$.">...</pc></p></body></text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_396" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Das habt ihr noch nicht gesehen – mit 23 neuen Bildern einmal um Island</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="53" unit="token"/>
+        <measure quantity="43" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Das habt ihr noch nicht gesehen – mit 23 neuen Bildern einmal um Island</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2013/08/18/das-habt-ihr-noch-nicht-gesehen-mit-23-neuen-bildern-einmal-um-island/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2013-08-18T10:38:05+00:00" type="published"/><date when="2017-01-09T10:48:35+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>biketour</term><term>bilder</term><term>iceland</term><term>island</term><term>radreise</term><term>reykjavik</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="zwei" pos="CARD">Zwei</w><w lemma="Monat" pos="NN">Monate</w><w lemma="liegen" pos="VVFIN">liegt</w><w lemma="nun" pos="ADV">nun</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Island" pos="NE">Island</w><w lemma="Tour" pos="NN">Tour</w><w lemma="schon" pos="ADV">schon</w><w lemma="zurück" pos="PTKVZ">zurück</w><pc pos="$.">.</pc><w lemma="fühlen" pos="VVPP">Gefühlt</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="die" pos="ART">das</w><w lemma="schon" pos="ADV">schon</w><w lemma="lang" pos="ADJD">länger</w><w lemma="her" pos="PTKVZ">her</w><pc pos="$.">.</pc><w lemma="aber" pos="KON">Aber</w><w lemma="ich" pos="PPER">ich</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="wieder" pos="ADV">wieder</w><w lemma="Zeit" pos="NN">Zeit</w><w lemma="finden" pos="VVPP">gefunden</w><pc pos="$,">,</pc><w lemma="um" pos="KOUI">um</w><w lemma="in" pos="APPR">in</w><w lemma="mein" pos="PPOSAT">meine</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="zu" pos="PTKZU">zu</w><w lemma="schauen" pos="VVINF">schauen</w><pc pos="$.">.</pc></p><p><w lemma="und" pos="KON">Und</w><w lemma="heute" pos="ADV">heute</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="@card@" pos="CARD">23</w><w lemma="neu" pos="ADJA">neue</w><w lemma="Bild" pos="NN">Bilder</w><w lemma="für" pos="APPR">für</w><w lemma="ihr" pos="PPER">Euch</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">die</w><w lemma="ihr" pos="PPER">ihr</w><w lemma="noch" pos="ADV">noch</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="sehen" pos="VVPP">gesehen</w><w lemma="haben" pos="VAFIN">habt</w><w lemma="und" pos="KON">und</w><w lemma="mit" pos="APPR">mit</w><w lemma="die" pos="PRELS">denen</w><w lemma="ich" pos="PPER">ich</w><w lemma="ihr" pos="PRF">Euch</w><w lemma="noch" pos="ADV">noch</w><w lemma="einmal" pos="ADV">einmal</w><w lemma="um" pos="APPR">um</w><w lemma="die" pos="ART">die</w><w lemma="Insel" pos="NN">Insel</w><w lemma="nehmen" pos="VVFIN">nehme</w><pc pos="$.">:</pc></p></body></text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BikeTourGlobal_426" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Kleine Fluchten – the dark side of Etna</title>
+        <author>Martin Moschek</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="59" unit="token"/>
+        <measure quantity="50" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Kleine Fluchten – the dark side of Etna</title>
+          <author><persName>Martin Moschek</persName><trait type="sex" subtype="m"/></author><ref type="urlBlogpost" target="https://www.biketour-global.de/2011/12/26/kleine-fluchten-the-dark-side-of-etna/"/>
+          <ref type="urlBlog" target="https://www.biketour-global.de/"/>
+          <date when="2011-12-26T18:41:13+00:00" type="published"/><date when="2016-01-17T18:22:39+00:00" type="modified"/>
+          <date when="2022-01-26" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>kleine fluchten</term><term>sizilien</term><term>taormina</term><term>vulkan</term><term>ätna</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><p><w lemma="in+die" pos="APPRART">Im</w><w lemma="Juli" pos="NN">Juli</w><w lemma="@card@" pos="CARD">2011</w><w lemma="sein" pos="VAFIN">war</w><w lemma="ich" pos="PPER">ich</w><w lemma="auf" pos="APPR">auf</w><w lemma="Sizilien" pos="NE">Sizilien</w><pc pos="$.">.</pc><w lemma="bei" pos="APPR">Bei</w><w lemma="dies" pos="PDAT">dieser</w><w lemma="Gelegenheit" pos="NN">Gelegenheit</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="ich" pos="PPER">ich</w><w lemma="natürlich" pos="ADV">natürlich</w><w lemma="auch" pos="ADV">auch</w><w lemma="kurz" pos="ADJD">kurz</w><w lemma="zu+die" pos="APPRART">zum</w><w lemma="Ätna" pos="NE">Ätna</w><w lemma="fahren" pos="VVPP">gefahren</w><pc pos="$.">.</pc></p><p><w lemma="es" pos="PPER">Es</w><w lemma="sein" pos="VAFIN">war</w><w lemma="schon" pos="ADV">schon</w><w lemma="beeindruckend" pos="ADJD">beeindruckend</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="leider" pos="ADV">leider</w><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="dort" pos="ADV">dort</w><w lemma="auch" pos="ADV">auch</w><w lemma="viele" pos="PIAT">viel</w><w lemma="Müll" pos="NN">Müll</w><w lemma="sehen" pos="VVPP">gesehen</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">den</w><w lemma="wir" pos="PPER">wir</w><pc pos="$,">,</pc><w lemma="die" pos="ART">die</w><w lemma="Tourist" pos="NN">Touristen</w><w lemma="dort" pos="ADV">dort</w><w lemma="hinterlassen" pos="VVINF">hinterlassen</w><pc pos="$.">.</pc></p><p><w lemma="unter" pos="APPR">Unter</w><w lemma="die" pos="ART">dem</w><w lemma="Titel" pos="NN">Titel</w><w lemma="„The" pos="NN">„The</w><w lemma="dark" pos="NE">dark</w><w lemma="side" pos="NN">side</w><w lemma="of" pos="FM">of</w><w lemma="Etna" pos="NE">Etna</w><pc pos="$(">“</pc><w lemma="haben" pos="VAFIN">habe</w><w lemma="ich" pos="PPER">ich</w><w lemma="daher" pos="PAV">daher</w><w lemma="mal" pos="ADV">mal</w><w lemma="neben" pos="APPR">neben</w><w lemma="schön" pos="ADJA">schönen</w><w lemma="Bild" pos="NN">Bildern</w><w lemma="und" pos="KON">und</w><w lemma="Video" pos="NN">Videos</w><w lemma="auch" pos="ADV">auch</w><w lemma="die" pos="ART">die</w><w lemma="dunkel" pos="ADJA">dunklen</w><w lemma="Seite" pos="NN">Seiten</w><w lemma="posten" pos="VVPP">gepostet</w><pc pos="$.">.</pc></p></body></text>
+</TEI>

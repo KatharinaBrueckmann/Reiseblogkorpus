@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/tei_blog.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="AbenteuerUnterwegs_033" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ausgabe für Reiseblogkorpus: Mach’s gut, liebe Luna</title>
+        <author>Nima Ashoff</author><respStmt>
+          <resp>Konversion von HTML zu TEI-XML</resp>
+          <name>Katharina Brückmann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Version 1 des Reiseblogkorpus vom <date when="2022-03-21">21.03.2021</date>. Auszeichnung in
+          TEI-XML mit Inline-Annotation des Lemmas und POS-Tags gemäß Stuttgart-Tübingen-Tagset (STTS).
+        </edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="153" unit="token"/>
+        <measure quantity="111" unit="types"/>
+      </extent>
+      <publicationStmt>
+        <distributor ref="https://github.com/">GitHub.com</distributor>
+        <date when="2022-03-21"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="bornDigital">
+          <title>Mach’s gut, liebe Luna</title>
+          <author><persName>Nima Ashoff</persName><trait type="sex" subtype="f"/></author><ref type="urlBlogpost" target="https://abenteuer-unterwegs.de/machs-gut-liebe-luna/"/>
+          <ref type="urlBlog" target="https://abenteuer-unterwegs.de/"/>
+          <date when="2019-04-06T16:31:32+02:00" type="published"/><date when="2019-04-06T16:31:32+02:00" type="modified"/>
+          <date when="2022-01-15" type="retrieved"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Version 1. Für weitere Informationen siehe
+        <ref target="https://github.com/KatharinaBrueckmann/Reiseblogkorpus/blob/main/README.md">Dokumentation</ref>
+      </p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+    <textClass><keywords><term>allgemein</term><term>reisen mit hund</term></keywords></textClass></profileDesc>
+    <revisionDesc>
+      <change when="2022-03-21">Upload des Korpus.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body><div><head><w lemma="Mach’s" pos="NN">Mach’s</w><w lemma="gut" pos="ADJD">gut</w><pc pos="$,">,</pc><w lemma="lieb" pos="ADJA">liebe</w><w lemma="Luna" pos="NN">Luna</w></head><div><p><w lemma="seit" pos="APPR">Seit</w><w lemma="die" pos="ART">dem</w><w lemma="@card@" pos="CARD">14.02.2019</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="unser" pos="PPOSAT">unsere</w><w lemma="alt" pos="ADJA">alte</w><w lemma="Oma" pos="NN">Oma</w><w lemma="Luna" pos="NN">Luna</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="mehr" pos="ADV">mehr</w><w lemma="bei" pos="APPR">bei</w><w lemma="wir" pos="PPER">uns</w><pc pos="$.">.</pc><w lemma="Sie" pos="PPER">Sie</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="in" pos="APPR">in</w><w lemma="Leonidio" pos="NN">Leonidio</w><w lemma="sterben" pos="VVPP">gestorben</w><w lemma="und" pos="KON">und</w><w lemma="dort" pos="ADV">dort</w><w lemma="an" pos="APPR">an</w><w lemma="eine" pos="ART">einem</w><w lemma="wunderbar" pos="ADJA">wunderbaren</w><w lemma="Platz" pos="NN">Platz</w><w lemma="beerdigen" pos="VVPP">beerdigt</w><pc pos="$.">.</pc></p><p><w lemma="@card@" pos="CARD">14</w><w lemma="Jahr" pos="NN">Jahre</w><w lemma="und" pos="KON">und</w><w lemma="@card@" pos="CARD">8</w><w lemma="Monat" pos="NN">Monate</w><w lemma="sein" pos="VAFIN">war</w><w lemma="Luna" pos="NN">Luna</w><w lemma="an" pos="APPR">an</w><w lemma="mein" pos="PPOSAT">meiner</w><w lemma="Seite" pos="NN">Seite</w><pc pos="$,">,</pc><w lemma="fast" pos="ADV">fast</w><w lemma="jede" pos="PIAT">jeden</w><w lemma="Tag" pos="NN">Tag</w><pc pos="$.">.</pc><w lemma="ihr" pos="PPOSAT">Ihr</w><w lemma="Tod" pos="NN">Tod</w><w lemma="hinterlassen" pos="VVFIN">hinterlässt</w><w lemma="bei" pos="APPR">bei</w><w lemma="ich" pos="PPER">mir</w><pc pos="$,">,</pc><w lemma="aber" pos="KON">aber</w><w lemma="auch" pos="ADV">auch</w><w lemma="bei" pos="APPR">bei</w><w lemma="Steve" pos="NE">Steve</w><w lemma="eine" pos="ART">eine</w><w lemma="groß" pos="ADJA">große</w><w lemma="Lücke" pos="NN">Lücke</w><pc pos="$.">.</pc></p><p><w lemma="als" pos="KOUS">Als</w><w lemma="wir" pos="PPER">wir</w><w lemma="vor" pos="APPR">vor</w><w lemma="drei" pos="CARD">drei</w><w lemma="Woche" pos="NN">Wochen</w><w lemma="von" pos="APPR">von</w><w lemma="Leonidio" pos="NN">Leonidio</w><w lemma="ohne" pos="APPR">ohne</w><w lemma="sie" pos="PPER">sie</w><w lemma="wegfahren" pos="VVPP">weggefahren</w><w lemma="sein" pos="VAFIN">sind</w><pc pos="$,">,</pc><w lemma="sein" pos="VAFIN">war</w><w lemma="dies" pos="PDS">dies</w><w lemma="mit" pos="APPR">mit</w><w lemma="eine" pos="ART">einem</w><w lemma="seltsam" pos="ADJA">seltsamen</w><pc pos="$,">,</pc><w lemma="auch" pos="ADV">auch</w><w lemma="traurig" pos="ADJA">traurigem</w><w lemma="Gefühl" pos="NN">Gefühl</w><w lemma="verbinden" pos="VVPP">verbunden</w><pc pos="$.">.</pc><w lemma="gleichzeitig" pos="ADJD">Gleichzeitig</w><w lemma="sein" pos="VAFIN">sind</w><w lemma="wir" pos="PPER">wir</w><w lemma="dankbar" pos="ADJD">dankbar</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="es" pos="PPER">es</w><w lemma="genau" pos="ADJD">genau</w><w lemma="dort" pos="ADV">dort</w><w lemma="passieren" pos="VVPP">passiert</w><w lemma="sein" pos="VAFIN">ist</w><w lemma="und" pos="KON">und</w><w lemma="wir" pos="PPER">wir</w><w lemma="in" pos="APPR">in</w><w lemma="alle" pos="PIAT">aller</w><w lemma="Ruhe" pos="NN">Ruhe</w><w lemma="von" pos="APPR">von</w><w lemma="ihr" pos="PPOSAT">ihr</w><w lemma="Abschied" pos="NN">Abschied</w><w lemma="nehmen" pos="VVINF">nehmen</w><w lemma="können" pos="VMFIN">konnten</w><pc pos="$.">.</pc></p><p><w lemma="Luna" pos="NN">Luna</w><w lemma="haben" pos="VAFIN">hatte</w><w lemma="eine" pos="ART">ein</w><w lemma="fantastisch" pos="ADJA">fantastisches</w><w lemma="Leben" pos="NN">Leben</w><pc pos="$.">.</pc><w lemma="Sie" pos="PPER">Sie</w><w lemma="werden" pos="VAFIN">wurde</w><w lemma="von" pos="APPR">von</w><w lemma="wir" pos="PRF">uns</w><w lemma="lieben" pos="VVPP">geliebt</w><w lemma="und" pos="KON">und</w><w lemma="sein" pos="VAFIN">war</w><w lemma="immer" pos="ADV">immer</w><w lemma="dabei" pos="PAV">dabei</w><pc pos="$.">.</pc><lb/><w lemma="ich" pos="PPER">Ich</w><w lemma="mögen" pos="VMFIN">möchte</w><w lemma="gar" pos="ADV">gar</w><w lemma="nicht" pos="PTKNEG">nicht</w><w lemma="viele" pos="PIAT">viele</w><w lemma="Wort" pos="NN">Worte</w><w lemma="über" pos="APPR">über</w><w lemma="ihr" pos="PPOSAT">ihren</w><w lemma="Tod" pos="NN">Tod</w><w lemma="verlieren" pos="VVINF">verlieren</w><pc pos="$,">,</pc><w lemma="sondern" pos="VVFIN">sondern</w><w lemma="sie" pos="PPER">sie</w><w lemma="als" pos="KOKOM">als</w><w lemma="die" pos="PDS">das</w><w lemma="in" pos="APPR">in</w><w lemma="Erinnerung" pos="NN">Erinnerung</w><w lemma="behalten" pos="VVFIN">behalten</w><pc pos="$,">,</pc><w lemma="was" pos="PWS">was</w><w lemma="sie" pos="PPER">sie</w><w lemma="sein" pos="VAFIN">war</w><pc pos="$.">:</pc><emph rend="strong"><w lemma="eine" pos="ART">ein</w><w lemma="Sonnenschein" pos="NN">Sonnenschein</w><pc pos="$.">!</pc></emph></p><p><w lemma="jede" pos="PIS">Jeder</w><pc pos="$,">,</pc><w lemma="die" pos="PRELS">der</w><w lemma="sie" pos="PPER">sie</w><w lemma="kennen" pos="VVFIN">kannte</w><pc pos="$,">,</pc><w lemma="mögen" pos="VMFIN">mochte</w><w lemma="sie" pos="PPER">sie</w><pc pos="$.">.</pc><lb/><w lemma="und" pos="KON">Und</w><w lemma="ich" pos="PPER">ich</w><w lemma="sein" pos="VAFIN">bin</w><w lemma="glücklich" pos="ADJD">glücklich</w><pc pos="$,">,</pc><w lemma="dass" pos="KOUS">dass</w><w lemma="ich" pos="PPER">ich</w><w lemma="mein" pos="PPOSAT">mein</w><w lemma="Leben" pos="NN">Leben</w><w lemma="mit" pos="APPR">mit</w><w lemma="dies" pos="PDAT">diesem</w><w lemma="toll" pos="ADJA">tollen</w><w lemma="Hund" pos="NN">Hund</w><w lemma="teilen" pos="VVINF">teilen</w><w lemma="dürfen" pos="VMFIN">durfte</w><pc pos="$.">.</pc></p><p><emph rend="strong"><w lemma="Mach’s" pos="NN">Mach’s</w><w lemma="gut" pos="ADJD">gut</w><pc pos="$,">,</pc><w lemma="lieb" pos="ADJA">liebe</w><w lemma="Luna" pos="NN">Luna</w><pc pos="$.">!</pc></emph></p></div></div></body></text>
+</TEI>
