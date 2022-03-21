@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/472065404.svg)](https://zenodo.org/badge/latestdoi/472065404)
+
 # Dokumentation des Korpus
 Das vorliegende Korpus wurde im Kontext der Masterarbeit „Erstellung eines Korpus deutschsprachiger Reiseblogbeiträge mittels Python“ im Fach Digital Humanities an der Universität Trier erzeugt. Alle eingestellten Texte wurden von den Rechteinhaber:innen gemäß der [CC-BY-NC-SA-Lizenz](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) lizensiert und stehen als TEI-XML im Rahmen der Lizenzbedingungen zur freien Verfügung. Die Texte enthalten auf Token-Ebene Lemma- und POS-Informationen gemäß Stuttgart-Tübingen-Tagset, die automatisiert mittels des [TreeTaggers](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) erzeugt wurden.
 
